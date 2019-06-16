@@ -1,0 +1,29 @@
+// Library - Design, Cell - 4_bit_adder_simulate, View - schematic
+// LAST TIME SAVED: Feb 28 20:29:19 2019
+// NETLIST TIME: Feb 28 20:30:10 2019
+`timescale 1ns / 1ns 
+
+module Design_4_bit_adder_simulate_schematic ( CARRY, O[0], O[1], O[2],
+     O[3], C, I[0], I[1], I[2], I[3], J[0], J[1], J[2], J[3] );
+
+output  CARRY;
+
+input  C;
+
+output [0:3]  O;
+
+input [0:3]  I;
+input [0:3]  J;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "4_bit_adder_simulate";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+my_4_bit_adder I8 ( CARRY, O[0], O[1], O[2], O[3], cds_globals.gnd_,
+     cds_globals.vdd_, C, I[0], I[1], I[2], I[3], J[0], J[1], J[2],
+     J[3]);
+
+endmodule

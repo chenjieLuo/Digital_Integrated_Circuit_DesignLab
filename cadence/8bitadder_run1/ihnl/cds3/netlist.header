@@ -1,0 +1,22 @@
+// Library - Design, Cell - 4bitregister, View - schematic
+// LAST TIME SAVED: Jan 26 13:17:50 2019
+// NETLIST TIME: Jan 28 11:44:08 2019
+`timescale 1ns / 1ns 
+
+module Design_4bitregister_schematic ( O[0], O[1], O[2], O[3], CLK,
+     I[0], I[1], I[2], I[3], INV_CLK );
+
+
+input  CLK, INV_CLK;
+
+output [0:3]  O;
+
+input [0:3]  I;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "4bitregister";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+

@@ -1,0 +1,36 @@
+// Library - Design, Cell - Flip-Flop, View - schematic
+// LAST TIME SAVED: Mar 16 14:54:09 2019
+// NETLIST TIME: Mar 16 15:19:37 2019
+`timescale 1ns / 1ns 
+
+module cdsModule_0 ( Q, GND, VDD, CLK, CLK_L, D );
+
+output  Q;
+
+inout  GND, VDD;
+
+input  CLK, CLK_L, D;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "Flip-Flop";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+inverter I5 ( net33, GND, VDD, net40);
+inverter I4 ( Q, GND, VDD, net40);
+inverter I3 ( net40, GND, VDD, net31);
+inverter I2 ( net24, GND, VDD, net30);
+inverter I1 ( net28, GND, VDD, net22);
+inverter I0 ( net20, GND, VDD, D);
+nmos4 N8 ( GND, net20, CLK_L, net22);
+nmos4 N4 ( GND, net24, CLK, net22);
+nmos4 N6 ( GND, net33, CLK_L, net30);
+nmos4 N7 ( GND, net28, CLK, net31);
+pmos4 P4 ( VDD, net28, CLK_L, net31);
+pmos4 P2 ( VDD, net33, CLK, net30);
+pmos4 P1 ( VDD, net24, CLK_L, net22);
+pmos4 P5 ( VDD, net20, CLK, net22);
+
+endmodule

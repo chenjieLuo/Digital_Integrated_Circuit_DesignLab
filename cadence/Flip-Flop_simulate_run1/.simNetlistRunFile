@@ -1,0 +1,17 @@
+simVerilogNetlistFileList = '(
+    (("Design" "Flip-Flop_simulate") 
+	("cds2/netlist" "cds2/map" "schematic")
+    ) 
+    (("Design" "Flip-Flop") 
+	("cds1/netlist" "cds1/map" "schematic")
+    ) 
+    (("Design" "inverter") 
+	("cds0/netlist" "cds0/map" "schematic")
+    )
+)
+simVerilogNetlistFileLibList = '("Design")
+simVerilogNetlistFileCellList = '(("Design" 
+	("inverter" "Flip-Flop" "Flip-Flop_simulate")
+    )
+)
+hnlIncrementalDirectory = '"ihnl"

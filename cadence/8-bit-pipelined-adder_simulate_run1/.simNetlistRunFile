@@ -1,0 +1,31 @@
+simVerilogNetlistFileList = '(
+    (("Design" "8-bit-pipelined-adder_simulate") 
+	("cds6/netlist" "cds6/map" "schematic")
+    ) 
+    (("Design" "8-bit-pipelined-adder") 
+	("cds5/netlist" "cds5/map" "schematic")
+    ) 
+    (("Design" "Flip-Flop") 
+	("cds4/netlist" "cds4/map" "schematic")
+    ) 
+    (("Design" "1-bit_adder") 
+	("cds3/netlist" "cds3/map" "schematic")
+    ) 
+    (("Design" "NAND") 
+	("cds2/netlist" "cds2/map" "schematic")
+    )
+    (("Design" "xor2") 
+	("cds1/netlist" "cds1/map" "schematic")
+    ) 
+    (("Design" "inverter") 
+	("cds0/netlist" "cds0/map" "schematic")
+    )
+)
+simVerilogNetlistFileLibList = '("Design")
+simVerilogNetlistFileCellList = '(("Design" 
+	("inverter" "xor2" "NAND" "1-bit_adder" "Flip-Flop"
+	    "8-bit-pipelined-adder" "8-bit-pipelined-adder_simulate"
+	)
+    )
+)
+hnlIncrementalDirectory = '"ihnl"

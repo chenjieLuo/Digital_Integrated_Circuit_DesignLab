@@ -1,0 +1,23 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+wire  CARRY, SUM;
+
+reg  A, B, C;
+
+
+
+fulladder top(CARRY, SUM, A, B, C); 
+ 
+
+`ifdef verilog
+
+ //please enter any additional verilog stimulus in the /home/grads/l/lchenjie/lchenjie/cadence/fulladder_run1/testfixture.verilog file
+`include "/home/grads/l/lchenjie/lchenjie/cadence/fulladder_run1/testfixture.verilog"
+
+`endif
+
+endmodule 

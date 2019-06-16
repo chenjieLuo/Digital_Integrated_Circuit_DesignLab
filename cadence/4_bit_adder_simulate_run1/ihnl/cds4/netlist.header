@@ -1,0 +1,26 @@
+// Library - Design, Cell - my_4_bit_adder, View - schematic
+// LAST TIME SAVED: Feb 27 20:45:07 2019
+// NETLIST TIME: Feb 28 20:30:10 2019
+`timescale 1ns / 1ns 
+
+module my_4_bit_adder ( CARRY, O[0], O[1], O[2], O[3], GND, VDD, C,
+     I[0], I[1], I[2], I[3], J[0], J[1], J[2], J[3] );
+
+output  CARRY;
+
+inout  GND, VDD;
+
+input  C;
+
+output [0:3]  O;
+
+input [0:3]  J;
+input [0:3]  I;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "my_4_bit_adder";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+

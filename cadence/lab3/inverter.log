@@ -1,0 +1,204 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 15.1.0.602.isr11 32bit -- 3 Sep 2016
+Copyright (C) 1989-2016 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: lchenjie   Host: hera3.ece.tamu.edu   HostID: 5BA5129F   PID: 45259
+Memory  available: 2.9089 GB  physical: 270.2585 GB
+Linux   : CentOS Linux release 7.6.1810 (Core) 
+CPU Type: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3105.6] ( 20 ),  2 [3115.6] ( 22 ),  4 [3108.1] ( 24 )
+                 6 [3099.9] ( 26 ),  8 [3166.9] ( 28 ), 10 [3099.9] ( 30 )
+                12 [3099.9] ( 32 ), 14 [3158.9] ( 34 ), 16 [3339.2] ( 36 )
+                18 [3156.2] ( 38 )
+        1:       1 [3099.9] ( 21 ),  3 [3099.9] ( 23 ),  5 [3099.9] ( 25 )
+                 7 [3099.9] ( 27 ),  9 [3099.9] ( 29 ), 11 [3099.9] ( 31 )
+                13 [3099.9] ( 33 ), 15 [3099.9] ( 35 ), 17 [3099.9] ( 37 )
+                19 [3099.9] ( 39 )
+        
+System load averages (1min, 5min, 15min) : 35.4 %, 35.7 %, 35.6 %
+Hyperthreading is enabled
+
+
+Simulating `inverter.spi' on hera3.ece.tamu.edu at 11:41:40 PM, Thur Feb 14, 2019 (process id: 45259).
+Current working directory: /home/grads/l/lchenjie/lchenjie/cadence/lab3
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /softwares/Linux/cadence/MMSIM151/tools/bin/spectre inverter.spi
+
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_o_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Reading file:  /home/grads/l/lchenjie/lchenjie/cadence/lab3/inverter.spi
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /usr/include/stdc-predef.h
+Reading file:  /home/grads/l/lchenjie/lchenjie/cadence/lab3/model18.spi
+Reading file:  /home/grads/l/lchenjie/lchenjie/cadence/lab3/cell18.spi
+Time for NDB Parsing: CPU = 73.187 ms, elapsed = 246.111 ms.
+Time accumulated: CPU = 100.587 ms, elapsed = 246.119 ms.
+Peak resident memory used = 27.8 Mbytes.
+
+
+The CPU load for active processors is :
+        Spectre  0 (16.7 %)      1 (100.0 %)     2 (41.7 %)      4 (20.8 %)
+                 5 (8.3 %)       6 (4.3 %)       7 (100.0 %)     8 (100.0 %)
+                10 (13.0 %)     11 (56.0 %)     12 (8.0 %)      13 (100.0 %)
+                14 (96.0 %)     15 (100.0 %)    17 (100.0 %)    18 (100.0 %)
+                19 (100.0 %)    23 (100.0 %)    25 (25.0 %)     27 (78.3 %)
+                29 (100.0 %)    31 (100.0 %)    36 (100.0 %)    37 (56.5 %)
+                39 (100.0 %)    
+        Other   
+Reading link:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.vams
+Time for Elaboration: CPU = 22.504 ms, elapsed = 34.713 ms.
+Time accumulated: CPU = 123.356 ms, elapsed = 281.127 ms.
+Peak resident memory used = 31.5 Mbytes.
+
+Time for EDB Visiting: CPU = 510 us, elapsed = 512.838 us.
+Time accumulated: CPU = 124.181 ms, elapsed = 282.001 ms.
+Peak resident memory used = 31.9 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M1: `Pdiblc2' = -8.75063e-06 is negative.
+
+
+Global user options:
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 4
+            bsim3v3 2     
+          capacitor 1     
+            vsource 3     
+
+Analysis and control statement inventory:
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M1: `Pdiblc2' = -8.75063e-06 is negative.
+
+Time for parsing: CPU = 2.829 ms, elapsed = 20.951 ms.
+Time accumulated: CPU = 127.3 ms, elapsed = 303.286 ms.
+Peak resident memory used = 32.9 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************************
+Transient Analysis `TransientAnalysis': time = (0 s -> 10 ns)
+*************************************************************
+DC simulation time: CPU = 466 us, elapsed = 466.108 us.
+
+Opening the PSF file inverter.raw/TransientAnalysis.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 10 ns
+    step = 1 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (voltage)
+
+......9....
+
+Notice from spectre at time = 1.7856 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vgnd:p.
+
+......9.....
+
+Notice from spectre at time = 1.9856 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vgnd:p.
+
+......9......8
+
+Notice from spectre at time = 2.1856 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vgnd:p.
+
+......9......8.
+
+Notice from spectre at time = 2.3856 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vgnd:p.
+
+......9......8...
+
+Notice from spectre at time = 2.5856 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node vgnd:p.
+        Further occurrences of this notice will be suppressed.
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             119
+
+Notice from spectre during transient analysis `TransientAnalysis'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (15.2 %)      1 (100.0 %)     2 (56.2 %)      3 (3.2 %)
+                 4 (18.8 %)      5 (29.0 %)      6 (9.7 %)       7 (100.0 %)
+                 8 (100.0 %)    10 (12.9 %)     11 (42.4 %)     12 (6.1 %)
+                13 (100.0 %)    14 (96.9 %)     15 (100.0 %)    17 (100.0 %)
+                18 (100.0 %)    19 (100.0 %)    23 (100.0 %)    25 (18.8 %)
+                27 (67.7 %)     29 (100.0 %)    31 (100.0 %)    36 (100.0 %)
+                37 (50.0 %)     39 (87.5 %)     
+        Other   
+Initial condition solution time: CPU = 531 us, elapsed = 544.071 us.
+Intrinsic tran analysis time:    CPU = 8.137 ms, elapsed = 10.8149 ms.
+Total time required for tran analysis `TransientAnalysis': CPU = 10.467 ms, elapsed = 20.211 ms.
+Time accumulated: CPU = 138.8 ms, elapsed = 328.828 ms.
+Peak resident memory used = 34.6 Mbytes.
+
+
+Notice from spectre.
+    35 notices suppressed.
+
+
+Aggregate audit (11:41:41 PM, Thur Feb 14, 2019):
+Time used: CPU = 141 ms, elapsed = 332 ms, util. = 42.5%.
+Time spent in licensing: elapsed = 59.4 ms, percentage of total = 17.9%.
+Peak memory used = 35 Mbytes.
+Simulation started at: 11:41:40 PM, Thur Feb 14, 2019, ended at: 11:41:41 PM, Thur Feb 14, 2019, with elapsed time (wall clock): 332 ms.
+spectre completes with 0 errors, 2 warnings, and 7 notices.

@@ -1,0 +1,27 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+wire  A0, B0, C0, CARRY, D0;
+
+reg  C;
+
+reg [0:3]  I;
+reg [0:3]  J;
+
+
+
+Design_4bitadder_schematic top(A0, B0, C0, CARRY, D0, C, I[0], I[1], 
+     I[2], I[3], J[0], J[1], J[2], J[3]); 
+ 
+
+`ifdef verilog
+
+ //please enter any additional verilog stimulus in the /home/grads/l/lchenjie/lchenjie/cadence/4bitadder_run1/testfixture.verilog file
+`include "/home/grads/l/lchenjie/lchenjie/cadence/4bitadder_run1/testfixture.verilog"
+
+`endif
+
+endmodule 

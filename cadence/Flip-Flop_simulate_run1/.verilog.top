@@ -1,0 +1,14 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+wire  Q;
+
+reg  CLK, CLK_L, D;
+
+
+
+cdsModule_1 top(Q, CLK, CLK_L, D); 
+ 

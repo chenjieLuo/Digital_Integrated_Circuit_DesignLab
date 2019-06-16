@@ -1,0 +1,39 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "4_bit_adder_simulate"
+  repList "behavioral functional system verilog pld_verilog lai_verilog lmsi_verilog schematic symbol"
+  stopList "verilog pld_verilog lai_verilog lmsi_verilog symbol"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  hierPrefix "test.top"
+  globalHierPrefix "cds_globals."
+  netlistDir "/home/grads/l/lchenjie/lchenjie/cadence/4_bit_adder_simulate_run1"
+  busRef   "ORDERED"
+  netType   "BUS"
+  leftStr  "["
+  rangeStr  ":"
+  rightStr  "]"
+ )
+( defbus
+( "J" 0 3  "J" 0 3  )
+( "O" 0 3  "O" 0 3  )
+( "I" 0 3  "I" 0 3  )
+ )
+( net
+( "vdd!" "cds_globals.vdd_" )
+( "gnd!" "cds_globals.gnd_" )
+ )
+( model
+( "Design/xor2/schematic" "xor2" )
+( "Design/1-bit_adder/schematic" "cdsModule_0" )
+( "Design/4_bit_adder_simulate/schematic" "Design_4_bit_adder_simulate_schematic" )
+( "Design/my_4_bit_adder/schematic" "my_4_bit_adder" )
+( "Design/NAND/schematic" "NAND" )
+ )
+( "Design_4_bit_adder_simulate_schematic" "ihnl/cds3/map" )
+( "cdsModule_0" "ihnl/cds2/map" )
+( "my_4_bit_adder" "ihnl/cds4/map" )
+( "xor2" "ihnl/cds0/map" )
+( "NAND" "ihnl/cds1/map" )
+ )

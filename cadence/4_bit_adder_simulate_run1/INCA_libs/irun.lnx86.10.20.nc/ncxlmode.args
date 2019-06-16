@@ -1,0 +1,15 @@
+//
+// File created by:  ncxlmode
+// Do not modify this file
+//
++delay_mode_path
++typdelays
+-l
+simout.tmp
+/home/grads/l/lchenjie/lchenjie/cadence/4_bit_adder_simulate_run1/testfixture.template
+-f
+/home/grads/l/lchenjie/lchenjie/cadence/4_bit_adder_simulate_run1/verilog.inpfiles
++nostdout
++nocopyright
++compile
+"+ncvlogargs+ -neverwarn -nostdout -nocopyright "

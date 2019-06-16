@@ -1,0 +1,34 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "8bitadder"
+  repList "behavioral functional system verilog pld_verilog lai_verilog lmsi_verilog schematic symbol"
+  stopList "verilog pld_verilog lai_verilog lmsi_verilog symbol"
+  hierDelim "."
+  hierPrefix "test.top"
+  globalHierPrefix "cds_globals."
+  netlistDir "/home/grads/l/lchenjie/lchenjie/cadence/8bitadder_run1"
+  busRef   "ORDERED"
+  netType   "BUS"
+  leftStr  "["
+  rangeStr  ":"
+  rightStr  "]"
+ )
+( defbus
+( "Y" 0 7  "Y" 0 7  )
+( "Z" 0 7  "Z" 0 7  )
+( "X" 0 7  "X" 0 7  )
+ )
+( model
+( "Design/8bitadder/schematic" "Design_8bitadder_schematic" )
+( "Design/fulladder/schematic" "fulladder" )
+( "NCSU_Digital_Parts/DFF/schematic" "DFF" )
+( "Design/4bitregister/schematic" "Design_4bitregister_schematic" )
+( "Design/4bitadder/schematic" "Design_4bitadder_schematic" )
+ )
+( "Design_4bitadder_schematic" "ihnl/cds1/map" )
+( "Design_4bitregister_schematic" "ihnl/cds3/map" )
+( "DFF" "ihnl/cds2/map" )
+( "fulladder" "ihnl/cds0/map" )
+( "Design_8bitadder_schematic" "ihnl/cds4/map" )
+ )

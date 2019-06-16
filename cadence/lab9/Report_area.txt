@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : area
+Design : TOP
+Version: D-2010.03-SP2
+Date   : Tue Apr  9 21:42:07 2019
+****************************************
+
+Library(s) Used:
+
+    class (File: /softwares/Common/synopsys/DesignVision_vD-2010.03-SP2/libraries/syn/class.db)
+
+Number of ports:               36
+Number of nets:                69
+Number of cells:                6
+Number of references:           6
+
+Combinational area:        719.000000
+Noncombinational area:     231.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           950.000000
+Total area:                 undefined
+ 
+****************************************
+Report : area
+Design : chenjie_module
+Version: D-2010.03-SP2
+Date   : Wed Apr 10 22:22:52 2019
+****************************************
+
+Library(s) Used:
+
+    class (File: /softwares/Common/synopsys/DesignVision_vD-2010.03-SP2/libraries/syn/class.db)
+    iit018_stdcells (File: /home/grads/l/lchenjie/tutorial/iit018_stdcells.db)
+
+Number of ports:               26
+Number of nets:               713
+Number of cells:              667
+Number of references:          35
+
+Combinational area:       3154.000000
+Noncombinational area:     175.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          3329.000000
+Total area:                 undefined

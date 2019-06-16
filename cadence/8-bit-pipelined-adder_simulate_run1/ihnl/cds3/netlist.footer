@@ -1,0 +1,7 @@
+xor2 I1 ( SUM, GND, VDD, net17, C);
+xor2 I0 ( net17, GND, VDD, A, B);
+NAND I4 ( CARRY, GND, VDD, net23, net020);
+NAND I3 ( net020, GND, VDD, net17, C);
+NAND I5 ( net23, GND, VDD, A, B);
+
+endmodule

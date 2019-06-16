@@ -1,0 +1,5 @@
+my_4_bit_adder I8 ( CARRY, O[0], O[1], O[2], O[3], cds_globals.gnd_,
+     cds_globals.vdd_, C, I[0], I[1], I[2], I[3], J[0], J[1], J[2],
+     J[3]);
+
+endmodule

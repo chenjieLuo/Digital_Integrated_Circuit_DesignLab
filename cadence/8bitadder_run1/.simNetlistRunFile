@@ -1,0 +1,27 @@
+simVerilogNetlistFileList = '(
+    (("Design" "8bitadder") 
+	("cds4/netlist" "cds4/map" "schematic")
+    ) 
+    (("Design" "4bitregister") 
+	("cds3/netlist" "cds3/map" "schematic")
+    ) 
+    (("NCSU_Digital_Parts" "DFF") 
+	("cds2/netlist" "cds2/map" "schematic")
+    ) 
+    (("Design" "4bitadder") 
+	("cds1/netlist" "cds1/map" "schematic")
+    ) 
+    (("Design" "fulladder") 
+	("cds0/netlist" "cds0/map" "schematic")
+    )
+)
+simVerilogNetlistFileLibList = '("Design" "NCSU_Digital_Parts")
+simVerilogNetlistFileCellList = '(
+    ("Design" 
+	("fulladder" "4bitadder" "4bitregister" "8bitadder")
+    ) 
+    ("NCSU_Digital_Parts" 
+	("DFF")
+    )
+)
+hnlIncrementalDirectory = '"ihnl"

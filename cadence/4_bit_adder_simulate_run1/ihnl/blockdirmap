@@ -1,0 +1,7 @@
+CADENCE IHNL11145
+
+Design xor2 schematic cds0
+Design NAND schematic cds1
+Design 1-bit_adder schematic cds2
+Design 4_bit_adder_simulate schematic cds3
+Design my_4_bit_adder schematic cds4

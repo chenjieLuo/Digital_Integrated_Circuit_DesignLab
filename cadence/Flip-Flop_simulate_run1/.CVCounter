@@ -1,0 +1,14 @@
+cellViewCounterTable = makeTable('cellViewCounterTableType nil)
+cellViewCounterTable['("basic" "opin" "symbol" )] =  19
+cellViewCounterTable['("basic" "ipin" "symbol" )] =  19
+cellViewCounterTable['("Design" "inverter" "schematic" )] =  1999
+cellViewCounterTable['("NCSU_Analog_Parts" "gnd" "symbol" )] =  19
+cellViewCounterTable['("NCSU_Analog_Parts" "vdd" "symbol" )] =  20
+cellViewCounterTable['("Design" "Flip-Flop" "symbol" )] =  99
+cellViewCounterTable['("Design" "Flip-Flop_simulate" "schematic" )] =  260
+cellViewCounterTable['("basic" "iopin" "symbolr" )] =  19
+cellViewCounterTable['("NCSU_Analog_Parts" "nmos4" "symbol" )] =  47
+cellViewCounterTable['("Design" "inverter" "symbol" )] =  157
+cellViewCounterTable['("NCSU_Analog_Parts" "pmos4" "symbol" )] =  48
+cellViewCounterTable['("NCSU_Analog_Parts" "vdc" "symbol" )] =  33
+cellViewCounterTable['("Design" "Flip-Flop" "schematic" )] =  4350

@@ -1,0 +1,6 @@
+DFF I3 ( O[0], I[0], CLK, INV_CLK);
+DFF I2 ( O[1], I[1], CLK, INV_CLK);
+DFF I1 ( O[2], I[2], CLK, INV_CLK);
+DFF I0 ( O[3], I[3], CLK, INV_CLK);
+
+endmodule

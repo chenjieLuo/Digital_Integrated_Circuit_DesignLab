@@ -1,0 +1,23 @@
+;Spice netlist for an inverter and a capacitor
+simulator lang=spectre
+
+include "~/lchenjie/cadence/lab3/model18.spi"
+include "~/lchenjie/cadence/lab3/cell18.spi"
+
+vgnd (gnd 0) vsource dc=0
+vvdd (vdd 0) vsource dc=1.8
+
+vpwl (ND_in 0) vsource type=pwl wave=[0n 0 1n 0 1.2n 1.8 4n 1.8 4.2n 0]
+
+X1 (ND_in vdd ND_out vdd gnd) ND wp=0.6u lp=0.2u wn=0.3u ln=0.2u
+
+;R1 (ND_out 1) resistor r=1
+C1 (ND_out 0) capacitor c=100f
+
+TransientAnalysis tran start=0 stop=10ns step=1ps
+save ND_in ND_out
+
+
+
+
+

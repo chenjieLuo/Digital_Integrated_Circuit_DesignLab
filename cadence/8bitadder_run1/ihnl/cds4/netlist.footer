@@ -1,0 +1,14 @@
+Design_4bitadder_schematic I1 ( Z[7], Z[6], Z[5], CARRY, Z[4], net27,
+     net1, net5, net9, net13, net16, net12, net6, net3);
+Design_4bitadder_schematic I0 ( Z[3], Z[2], Z[1], net27, Z[0], C, net4,
+     net8, net11, net15, net14, net10, net7, net2);
+Design_4bitregister_schematic I6 ( net14, net10, net7, net2, CLK, Y[0],
+     Y[1], Y[2], Y[3], INV_CLK);
+Design_4bitregister_schematic I5 ( net4, net8, net11, net15, CLK, X[0],
+     X[1], X[2], X[3], INV_CLK);
+Design_4bitregister_schematic I3 ( net16, net12, net6, net3, CLK, Y[4],
+     Y[5], Y[6], Y[7], INV_CLK);
+Design_4bitregister_schematic I2 ( net1, net5, net9, net13, CLK, X[4],
+     X[5], X[6], X[7], INV_CLK);
+
+endmodule

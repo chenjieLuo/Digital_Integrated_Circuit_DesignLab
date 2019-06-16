@@ -1,0 +1,16 @@
+
+// Verilog stimulus file.
+// Please do not create a module in this file.
+
+
+// Default verilog stimulus. 
+initial
+$monitor($time," I[3]=%b, I[2]1=%b, I[1]=%b, I[0]=%b, J[3]=%b, J[2]=%b, J[1]=%b, J[0]=%b, C=%b, CARRY=%b, A0=%b, B0=%b, C0=%b, D0=%b", I[3], I[2], I[1], I[0], J[3], J[2], J[1], J[0], C, CARRY, A0, B0, C0, D0);
+initial
+begin 
+I[3]=1'b0; I[2]=1'b0; I[1]=1'b0; I[0]=1'b0; J[3]=1'b0; J[2]=1'b0; J[1]=1'b0; J[0]=1'b0; C=1'b0;
+#50 I[3] = 1'b1; I[2] = 1'b1; I[1] = 1'b1; I[0] = 1'b1; C=1'b0; J[3]=1'b1; J[2]=1'b1; J[1]=1'b1; J[0]= 1'b1;  //1111+1111 + CARRY IN 0
+#50 I[3] = 1'b1; I[2] = 1'b0; I[1] = 1'b1; I[0] = 1'b0; C=1'b1; J[3]=1'b1; J[2]=1'b0; J[1]=1'b1; J[0]= 1'b0;  //1010+1010 + CARRY IN 1
+#50 I[3] = 1'b0; I[2] = 1'b1; I[1] = 1'b0; I[0] = 1'b1; C=1'b1; J[3]=1'b0; J[2]=1'b1; J[1]=1'b0; J[0]= 1'b1;  //0101+0101 + CARRY IN 1
+
+end

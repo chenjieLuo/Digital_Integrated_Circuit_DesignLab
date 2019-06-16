@@ -1,0 +1,4 @@
+Dlatch  I14 ( Q, net275, Clk, _Clk);
+Dlatch  I13 ( net275, D, _Clk, Clk);
+
+endmodule

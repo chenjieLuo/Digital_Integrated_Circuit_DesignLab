@@ -1,0 +1,22 @@
+// Library - NCSU_Digital_Parts, Cell - DFF, View - schematic
+// LAST TIME SAVED: Jul 12 09:02:01 2007
+// NETLIST TIME: Jan 26 12:44:42 2019
+`timescale 1ns / 1ns 
+
+module DFF ( Q, D, Clk, _Clk );
+
+output  Q;
+
+input  Clk, D, _Clk;
+
+
+specify 
+    specparam CDS_LIBNAME  = "NCSU_Digital_Parts";
+    specparam CDS_CELLNAME = "DFF";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+Dlatch  I14 ( Q, net275, Clk, _Clk);
+Dlatch  I13 ( net275, D, _Clk, Clk);
+
+endmodule

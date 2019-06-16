@@ -1,0 +1,20 @@
+// Library - Design, Cell - 1-bit_adder, View - schematic
+// LAST TIME SAVED: Feb 22 11:05:11 2019
+// NETLIST TIME: Apr  4 21:02:08 2019
+`timescale 1ns / 1ns 
+
+module cdsModule_4 ( CARRY, SUM, GND, VDD, A, B, C );
+
+output  CARRY, SUM;
+
+inout  GND, VDD;
+
+input  A, B, C;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "1-bit_adder";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+

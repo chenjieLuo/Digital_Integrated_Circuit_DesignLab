@@ -1,0 +1,4 @@
+nmos4 N0 ( GND, out, in, GND);
+pmos4 P0 ( VDD, out, in, VDD);
+
+endmodule

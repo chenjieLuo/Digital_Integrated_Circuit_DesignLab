@@ -1,0 +1,22 @@
+// Library - Design, Cell - Flip-Flop_simulate, View - schematic
+// LAST TIME SAVED: Mar 16 15:18:21 2019
+// NETLIST TIME: Mar 16 15:19:37 2019
+`timescale 1ns / 1ns 
+
+module cdsModule_1 ( Q, CLK, CLK_L, D );
+
+output  Q;
+
+input  CLK, CLK_L, D;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "Flip-Flop_simulate";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+cdsModule_0 I0 ( Q, cds_globals.gnd_, cds_globals.vdd_, CLK, CLK_L, D);
+vdc  V0 ( .PLUS(cds_globals.vdd_), .MINUS(cds_globals.gnd_));
+
+endmodule

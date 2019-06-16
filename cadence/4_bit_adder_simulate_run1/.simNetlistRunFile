@@ -1,0 +1,23 @@
+simVerilogNetlistFileList = '(
+    (("Design" "4_bit_adder_simulate") 
+	("cds3/netlist" "cds3/map" "schematic")
+    ) 
+    (("Design" "my_4_bit_adder") 
+	("cds4/netlist" "cds4/map" "schematic")
+    ) 
+    (("Design" "1-bit_adder") 
+	("cds2/netlist" "cds2/map" "schematic")
+    ) 
+    (("Design" "NAND") 
+	("cds1/netlist" "cds1/map" "schematic")
+    ) 
+    (("Design" "xor2") 
+	("cds0/netlist" "cds0/map" "schematic")
+    )
+)
+simVerilogNetlistFileLibList = '("Design")
+simVerilogNetlistFileCellList = '(("Design" 
+	("xor2" "NAND" "1-bit_adder" "my_4_bit_adder" "4_bit_adder_simulate")
+    )
+)
+hnlIncrementalDirectory = '"ihnl"

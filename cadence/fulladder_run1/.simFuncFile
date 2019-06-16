@@ -1,0 +1,7 @@
+simFuncDPLList = '((nil libName "NCSU_Digital_Parts" cellName "nand2"
+    viewName "functional" filePath "/softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/nand2/functional/verilog.v"
+    ) 
+    (nil libName "NCSU_Digital_Parts" cellName "xor2"
+    viewName "functional" filePath "/softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/xor2/functional/verilog.v"
+    )
+)

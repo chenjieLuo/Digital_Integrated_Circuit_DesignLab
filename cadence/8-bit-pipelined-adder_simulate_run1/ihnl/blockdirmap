@@ -1,0 +1,9 @@
+CADENCE IHNL11147
+
+Design inverter schematic cds0
+Design xor2 schematic cds1
+Design NAND schematic cds2
+Design 1-bit_adder schematic cds3
+Design Flip-Flop schematic cds4
+Design 8-bit-pipelined-adder schematic cds5
+Design 8-bit-pipelined-adder_simulate schematic cds6

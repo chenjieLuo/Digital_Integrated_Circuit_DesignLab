@@ -1,0 +1,20 @@
+\o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 12/07/2016 00:37 (sjfqos809) $
+\o Sub version:		sub-version  s031 
+\o Arguments:		-mpssession virtuoso48772 -mpshost hera3.ece.tamu.edu 
+\o Working Directory:	hera3.ece.tamu.edu:/home/grads/l/lchenjie/lchenjie/cadence/lab11
+\o 64-bit offsets
+\o Qt version: 		4.8.5
+\o Log file is "/home/grads/l/lchenjie/lchenjie/cadence/lab11/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(173 172 1366 714))
+\o changeWorkingDir("/home/grads/l/lchenjie/lchenjie/cadence/lab11") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(43 93 1366 714))
+\a nrResizeWindow(cdsLibManager list(16 76 1366 714))
+\a nrResizeWindow(cdsLibManager list(11 61 1366 714))
+\a nrResizeWindow(cdsLibManager list(4 40 1366 714))
+\a nrResizeWindow(cdsLibManager list(2 35 1366 714))
+\a _lmgrCloseIconify("cdsLibManager" 1)

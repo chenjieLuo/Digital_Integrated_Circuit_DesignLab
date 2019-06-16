@@ -1,0 +1,14 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+wire  CARRY, SUM;
+
+reg  A, B, C;
+
+
+
+fulladder top(CARRY, SUM, A, B, C); 
+ 

@@ -1,0 +1,22 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+wire  CARRY;
+
+reg  C, CLK, INV_CLK;
+
+wire [0:7]  Z;
+
+reg [0:7]  X;
+reg [0:7]  Y;
+
+
+
+Design_8bitadder_schematic top(CARRY, Z[0], Z[1], Z[2], Z[3], Z[4], 
+     Z[5], Z[6], Z[7], C, CLK, INV_CLK, X[0], X[1], X[2], X[3], X[4], 
+     X[5], X[6], X[7], Y[0], Y[1], Y[2], Y[3], Y[4], Y[5], Y[6], Y[7]
+     ); 
+ 

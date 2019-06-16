@@ -1,0 +1,50 @@
+// Verilog stimulus file.
+// Please do not create a module in this file.
+
+always @(posedge CLK)
+begin
+$display($time, " CLK=%b, I[7:0]=%b%b%b%b%b%b%b%b, C=%b, J[7:0]=%b%b%b%b%b%b%b%b, CARRY=%b, O[7:0]=%b%b%b%b%b%b%b%b", CLK, I[7], I[6], I[5], I[4], I[3], I[2], I[1], I[0], C, J[7], J[6], J[5], J[4], J[3], J[2], J[1], J[0], CARRY, O[7], O[6], O[5], O[4], O[3], O[2], O[1], O[0]);
+end
+initial
+begin 
+
+   C = 1'b0;
+   CLK = 1'b0;
+   I[0] = 1'b0;
+   I[1] = 1'b0;
+   I[2] = 1'b0;
+   I[3] = 1'b0;
+   I[4] = 1'b0;
+   I[5] = 1'b0;
+   I[6] = 1'b0;
+   I[7] = 1'b0;
+   J[0] = 1'b0;
+   J[1] = 1'b0;
+   J[2] = 1'b0;
+   J[3] = 1'b0;
+   J[4] = 1'b0;
+   J[5] = 1'b0;
+   J[6] = 1'b0;
+   J[7] = 1'b0;
+   VDD = 1'b1;
+   GND = 1'b0;
+#15 I[7]=1'b0; I[6]=1'b1; I[5]=1'b1; I[4]=1'b1; I[3]=1'b1; I[2]=1'b1; I[1]=1'b1; I[0]=1'b0; J[7]=1'b1; J[6]=1'b1; J[5]=1'b1; J[4]=1'b0; J[3]=1'b0; J[2]=1'b1; J[1]=1'b1; J[0]=1'b1;C=0;
+
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+
+#50 I[7]=1'b1; I[6]=1'b1; I[5]=1'b1; I[4]=1'b1; I[3]=1'b1; I[2]=1'b1; I[1]=1'b1; I[0]=1'b1; J[7]=1'b0; J[6]=1'b0; J[5]=1'b0; J[4]=1'b0; J[3]=1'b0; J[2]=1'b0; J[1]=1'b0; J[0]=1'b0;C=1;
+
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+#5 CLK = ~CLK;
+end 

@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+Design/xor2/schematic xor2
+Design/8-bit-pipelined-adder_simulate/schematic cdsModule_7
+Design/8-bit-pipelined-adder/schematic cdsModule_6
+Design/Flip-Flop/schematic cdsModule_5
+Design/1-bit_adder/schematic cdsModule_4
+Design/inverter/schematic inverter
+Design/NAND/schematic NAND
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,20 @@
+// Library - Design, Cell - xor2, View - schematic
+// LAST TIME SAVED: Feb 22 12:07:28 2019
+// NETLIST TIME: Feb 27 20:09:43 2019
+`timescale 1ns / 1ns 
+
+module xor2 ( OUT, GND, VDD, A, B );
+
+output  OUT;
+
+inout  GND, VDD;
+
+input  A, B;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "xor2";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+

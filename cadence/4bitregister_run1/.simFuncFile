@@ -1,0 +1,4 @@
+simFuncDPLList = '((nil libName "NCSU_Digital_Parts" cellName "Dlatch"
+    viewName "behavioral" filePath "/softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/Dlatch/behavioral/verilog.v"
+    )
+)

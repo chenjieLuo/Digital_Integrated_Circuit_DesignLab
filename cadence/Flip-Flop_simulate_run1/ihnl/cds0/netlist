@@ -1,0 +1,24 @@
+// Library - Design, Cell - inverter, View - schematic
+// LAST TIME SAVED: Feb 21 20:24:42 2019
+// NETLIST TIME: Mar 16 15:19:37 2019
+`timescale 1ns / 1ns 
+
+module inverter ( out, GND, VDD, in );
+
+output  out;
+
+inout  GND, VDD;
+
+input  in;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "inverter";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+nmos4 N0 ( GND, out, in, GND);
+pmos4 P0 ( VDD, out, in, VDD);
+
+endmodule

@@ -1,0 +1,34 @@
+// Library - Design, Cell - xor2, View - schematic
+// LAST TIME SAVED: Feb 22 12:07:28 2019
+// NETLIST TIME: Feb 27 20:09:43 2019
+`timescale 1ns / 1ns 
+
+module xor2 ( OUT, GND, VDD, A, B );
+
+output  OUT;
+
+inout  GND, VDD;
+
+input  A, B;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "xor2";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+pmos4 P5 ( VDD, net24, B, VDD);
+pmos4 P4 ( VDD, net23, A, VDD);
+pmos4 P3 ( VDD, OUT, A, net036);
+pmos4 P2 ( VDD, OUT, net23, net037);
+pmos4 P1 ( VDD, net036, net24, VDD);
+pmos4 P0 ( VDD, net037, B, VDD);
+nmos4 N5 ( GND, net24, B, GND);
+nmos4 N4 ( GND, net23, A, GND);
+nmos4 N3 ( GND, net41, B, GND);
+nmos4 N2 ( GND, net42, net24, GND);
+nmos4 N1 ( GND, OUT, A, net41);
+nmos4 N0 ( GND, OUT, net23, net42);
+
+endmodule

@@ -1,0 +1,28 @@
+// Library - Design, Cell - 4bitadder, View - schematic
+// LAST TIME SAVED: Jan 26 11:38:54 2019
+// NETLIST TIME: Jan 26 11:50:24 2019
+`timescale 1ns / 1ns 
+
+module Design_4bitadder_schematic ( A0, B0, C0, CARRY, D0, C, I[0],
+     I[1], I[2], I[3], J[0], J[1], J[2], J[3] );
+
+output  A0, B0, C0, CARRY, D0;
+
+input  C;
+
+input [0:3]  I;
+input [0:3]  J;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "4bitadder";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+fulladder I3 ( net20, D0, I[0], J[0], C);
+fulladder I2 ( net21, C0, I[1], J[1], net20);
+fulladder I1 ( net22, B0, I[2], J[2], net21);
+fulladder I0 ( CARRY, A0, I[3], J[3], net22);
+
+endmodule

@@ -1,0 +1,29 @@
+//
+// File created by:  ncxlmode
+// Do not modify this file
+//
++delay_mode_path
++typdelays
++nostdout
++nocopyright
++compile
+"+ncvlogargs+ -neverwarn -nostdout -nocopyright "
+-NOSTDOUT
+-NOCOPYRIGHT
+-MESSAGES
+-EMGRLOG
+simout.tmp
+-XLSTIME
+1552767581
+-XLKEEP
+-XLMODE
+./INCA_libs/irun.lnx86.10.20.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.10.20.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.10.20.nc/hdl.var
+-XLNAME
+ncxlmode
+-XLVERSION
+"TOOL:	ncxlmode	10.20-s073"

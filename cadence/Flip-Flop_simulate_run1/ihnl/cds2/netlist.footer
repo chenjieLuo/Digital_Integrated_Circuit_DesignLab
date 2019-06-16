@@ -1,0 +1,4 @@
+cdsModule_0 I0 ( Q, cds_globals.gnd_, cds_globals.vdd_, CLK, CLK_L, D);
+vdc  V0 ( .PLUS(cds_globals.vdd_), .MINUS(cds_globals.gnd_));
+
+endmodule

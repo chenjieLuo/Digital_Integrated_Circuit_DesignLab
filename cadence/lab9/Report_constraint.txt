@@ -1,0 +1,1745 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : chenjie_module
+Version: D-2010.03-SP2
+Date   : Wed Apr 10 22:12:27 2019
+****************************************
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_on_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U691/Z (ND2I)                            0.65      41.79 f
+  U220/Z (ND2I)                            0.71      42.49 r
+  U735/Z (ND2I)                            0.40      42.89 f
+  U736/Z (AO3P)                            1.37      44.26 r
+  U532/Z (IVI)                             0.42      44.68 f
+  U738/Z (ND2I)                            0.60      45.28 r
+  U739/Z (ND2I)                            0.28      45.56 f
+  U259/Z (IVI)                             0.48      46.04 r
+  U257/Z (ND2I)                            0.28      46.31 f
+  U258/Z (ND2I)                            0.60      46.92 r
+  U754/Z (ND2I)                            0.28      47.19 f
+  U755/Z (ND2I)                            0.49      47.69 r
+  U511/Z (ND2I)                            0.46      48.15 f
+  U756/Z (ND2I)                            1.03      49.18 r
+  U831/Z (NR2I)                            0.41      49.59 f
+  U833/Z (NR2I)                            1.18      50.77 r
+  U837/Z (ND2I)                            0.58      51.35 f
+  U384/Z (AO3P)                            1.37      52.72 r
+  U851/Z (ND2I)                            0.28      53.00 f
+  U852/Z (ND2I)                            0.49      53.49 r
+  U853/Z (ND2I)                            0.28      53.77 f
+  U854/Z (ND2I)                            0.49      54.27 r
+  U855/Z (ND2I)                            0.28      54.54 f
+  U856/Z (ND2I)                            0.49      55.04 r
+  U857/Z (IVI)                             0.27      55.31 f
+  cruise_on_reg/D (FD1)                    0.00      55.31 f
+  data arrival time                                  55.31
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_on_reg/CP (FD1)                   0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -55.31
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -18.61
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U756/Z (ND2I)                            1.20      49.29 f
+  U509/Z (IVI)                             0.61      49.89 r
+  U510/Z (IVI)                             0.42      50.31 f
+  U788/Z (NR2I)                            1.18      51.49 r
+  U790/Z (NR2I)                            0.41      51.90 f
+  U794/Z (ND2I)                            0.60      52.50 r
+  cruise_speed_reg[5]/D (FD1)              0.00      52.50 r
+  data arrival time                                  52.50
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[5]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -52.50
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.80
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U756/Z (ND2I)                            1.20      49.29 f
+  U509/Z (IVI)                             0.61      49.89 r
+  U510/Z (IVI)                             0.42      50.31 f
+  U824/Z (NR2I)                            1.18      51.49 r
+  U826/Z (NR2I)                            0.41      51.90 f
+  U830/Z (ND2I)                            0.60      52.50 r
+  cruise_speed_reg[7]/D (FD1)              0.00      52.50 r
+  data arrival time                                  52.50
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[7]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -52.50
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.80
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U759/Z (ND2I)                            1.02      49.10 f
+  U507/Z (IVI)                             0.61      49.71 r
+  U508/Z (IVI)                             0.57      50.27 f
+  U796/Z (NR2I)                            1.18      51.46 r
+  U797/Z (NR2I)                            0.41      51.86 f
+  U801/Z (ND2I)                            0.60      52.46 r
+  cruise_speed_reg[6]/D (FD1)              0.00      52.46 r
+  data arrival time                                  52.46
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[6]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -52.46
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.76
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U759/Z (ND2I)                            1.02      49.10 f
+  U507/Z (IVI)                             0.61      49.71 r
+  U503/Z (IVI)                             0.27      49.98 f
+  U760/Z (NR2I)                            1.18      51.16 r
+  U761/Z (NR2I)                            0.41      51.57 f
+  U766/Z (ND2I)                            0.60      52.17 r
+  cruise_speed_reg[4]/D (FD1)              0.00      52.17 r
+  data arrival time                                  52.17
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[4]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -52.17
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.47
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z1 (B3IP)                           1.33      32.71 r
+  U652/Z (ND2I)                            0.46      33.17 f
+  U351/Z (ND2I)                            0.60      33.77 r
+  U684/Z (ND2I)                            0.40      34.17 f
+  U215/Z (ND2P)                            1.93      36.10 r
+  U467/Z (B4IP)                            2.12      38.22 f
+  U468/Y (INVX1)                           0.31      38.53 r
+  U256/Y (AND2X1)                          0.11      38.64 r
+  U252/Y (NAND2X1)                         0.05      38.69 f
+  U255/Y (NAND3X1)                         0.12      38.82 r
+  U490/Y (NAND2X1)                         0.05      38.86 f
+  U529/Y (NAND2X1)                         0.23      39.09 r
+  U541/Y (NAND2X1)                         0.06      39.15 f
+  U385/Y (AND2X1)                          0.10      39.25 f
+  U386/Y (NOR2X1)                          0.12      39.37 r
+  U686/YC (FAX1)                           0.12      39.48 r
+  U687/Z (ND2I)                            0.28      39.76 f
+  U688/Z (ND2I)                            0.49      40.26 r
+  U690/Z (ND2I)                            0.46      40.72 f
+  U691/Z (ND2I)                            0.71      41.43 r
+  U364/Z (ND2I)                            0.46      41.89 f
+  U363/Z (AN2I)                            1.20      43.09 f
+  U719/Z (ND2I)                            0.56      43.66 r
+  U720/Z (AO3P)                            0.96      44.62 f
+  U534/Z (IVI)                             0.61      45.22 r
+  U722/Z (ND2I)                            0.46      45.69 f
+  U222/Y (IVDA)                            1.49      47.17 r
+  U276/Z (ND2I)                            0.65      47.82 f
+  U497/Z (IVI)                             0.61      48.43 r
+  U811/Z (ND2I)                            0.46      48.89 f
+  U277/Z (IVI)                             0.61      49.50 r
+  U839/Z (ND2I)                            0.46      49.96 f
+  U843/Z (ENI)                             0.77      50.73 r
+  U439/Z (MUX21L)                          0.86      51.59 f
+  U845/Z (ND2I)                            0.49      52.08 r
+  speed_reg[7]/D (FD1)                     0.00      52.08 r
+  data arrival time                                  52.08
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[7]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -52.08
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.38
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z1 (B3IP)                           1.33      32.71 r
+  U652/Z (ND2I)                            0.46      33.17 f
+  U351/Z (ND2I)                            0.60      33.77 r
+  U684/Z (ND2I)                            0.40      34.17 f
+  U215/Z (ND2P)                            1.93      36.10 r
+  U467/Z (B4IP)                            2.12      38.22 f
+  U468/Y (INVX1)                           0.31      38.53 r
+  U256/Y (AND2X1)                          0.11      38.64 r
+  U252/Y (NAND2X1)                         0.05      38.69 f
+  U255/Y (NAND3X1)                         0.12      38.82 r
+  U490/Y (NAND2X1)                         0.05      38.86 f
+  U529/Y (NAND2X1)                         0.23      39.09 r
+  U541/Y (NAND2X1)                         0.06      39.15 f
+  U385/Y (AND2X1)                          0.10      39.25 f
+  U386/Y (NOR2X1)                          0.12      39.37 r
+  U686/YC (FAX1)                           0.12      39.48 r
+  U687/Z (ND2I)                            0.28      39.76 f
+  U688/Z (ND2I)                            0.49      40.26 r
+  U690/Z (ND2I)                            0.46      40.72 f
+  U691/Z (ND2I)                            0.71      41.43 r
+  U364/Z (ND2I)                            0.46      41.89 f
+  U363/Z (AN2I)                            1.20      43.09 f
+  U719/Z (ND2I)                            0.56      43.66 r
+  U720/Z (AO3P)                            0.96      44.62 f
+  U534/Z (IVI)                             0.61      45.22 r
+  U722/Z (ND2I)                            0.46      45.69 f
+  U222/Y (IVDA)                            1.49      47.17 r
+  U276/Z (ND2I)                            0.65      47.82 f
+  U497/Z (IVI)                             0.61      48.43 r
+  U811/Z (ND2I)                            0.46      48.89 f
+  U496/Z (IVI)                             0.61      49.50 r
+  U816/Z (ND2I)                            0.46      49.96 f
+  U820/Z (ND2I)                            0.49      50.46 r
+  U821/Z (ND2I)                            0.40      50.85 f
+  U440/Z (MUX21L)                          0.88      51.74 r
+  U823/Z (ND2I)                            0.28      52.01 f
+  speed_reg[5]/D (FD1)                     0.00      52.01 f
+  data arrival time                                  52.01
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[5]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -52.01
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.31
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z1 (B3IP)                           1.33      32.71 r
+  U652/Z (ND2I)                            0.46      33.17 f
+  U351/Z (ND2I)                            0.60      33.77 r
+  U684/Z (ND2I)                            0.40      34.17 f
+  U215/Z (ND2P)                            1.93      36.10 r
+  U467/Z (B4IP)                            2.12      38.22 f
+  U468/Y (INVX1)                           0.31      38.53 r
+  U256/Y (AND2X1)                          0.11      38.64 r
+  U252/Y (NAND2X1)                         0.05      38.69 f
+  U255/Y (NAND3X1)                         0.12      38.82 r
+  U490/Y (NAND2X1)                         0.05      38.86 f
+  U529/Y (NAND2X1)                         0.23      39.09 r
+  U541/Y (NAND2X1)                         0.06      39.15 f
+  U385/Y (AND2X1)                          0.10      39.25 f
+  U386/Y (NOR2X1)                          0.12      39.37 r
+  U686/YC (FAX1)                           0.12      39.48 r
+  U687/Z (ND2I)                            0.28      39.76 f
+  U688/Z (ND2I)                            0.49      40.26 r
+  U690/Z (ND2I)                            0.46      40.72 f
+  U691/Z (ND2I)                            0.71      41.43 r
+  U364/Z (ND2I)                            0.46      41.89 f
+  U363/Z (AN2I)                            1.20      43.09 f
+  U719/Z (ND2I)                            0.56      43.66 r
+  U720/Z (AO3P)                            0.96      44.62 f
+  U534/Z (IVI)                             0.61      45.22 r
+  U722/Z (ND2I)                            0.46      45.69 f
+  U222/Y (IVDA)                            1.49      47.17 r
+  U276/Z (ND2I)                            0.65      47.82 f
+  U497/Z (IVI)                             0.61      48.43 r
+  U811/Z (ND2I)                            0.46      48.89 f
+  U496/Z (IVI)                             0.61      49.50 r
+  U283/Z (ND2I)                            0.46      49.96 f
+  U838/Z (ND2I)                            0.49      50.46 r
+  U840/Z (ND2I)                            0.40      50.85 f
+  U207/Z (MUX21L)                          0.88      51.74 r
+  U842/Z (ND2I)                            0.28      52.01 f
+  speed_reg[6]/D (FD1)                     0.00      52.01 f
+  data arrival time                                  52.01
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[6]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -52.01
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.31
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z1 (B3IP)                           1.33      32.71 r
+  U652/Z (ND2I)                            0.46      33.17 f
+  U351/Z (ND2I)                            0.60      33.77 r
+  U684/Z (ND2I)                            0.40      34.17 f
+  U215/Z (ND2P)                            1.93      36.10 r
+  U467/Z (B4IP)                            2.12      38.22 f
+  U468/Y (INVX1)                           0.31      38.53 r
+  U256/Y (AND2X1)                          0.11      38.64 r
+  U252/Y (NAND2X1)                         0.05      38.69 f
+  U255/Y (NAND3X1)                         0.12      38.82 r
+  U490/Y (NAND2X1)                         0.05      38.86 f
+  U529/Y (NAND2X1)                         0.23      39.09 r
+  U541/Y (NAND2X1)                         0.06      39.15 f
+  U385/Y (AND2X1)                          0.10      39.25 f
+  U386/Y (NOR2X1)                          0.12      39.37 r
+  U686/YC (FAX1)                           0.12      39.48 r
+  U687/Z (ND2I)                            0.28      39.76 f
+  U688/Z (ND2I)                            0.49      40.26 r
+  U690/Z (ND2I)                            0.46      40.72 f
+  U691/Z (ND2I)                            0.71      41.43 r
+  U364/Z (ND2I)                            0.46      41.89 f
+  U363/Z (AN2I)                            1.20      43.09 f
+  U719/Z (ND2I)                            0.56      43.66 r
+  U720/Z (AO3P)                            0.96      44.62 f
+  U534/Z (IVI)                             0.61      45.22 r
+  U722/Z (ND2I)                            0.46      45.69 f
+  U222/Y (IVDA)                            1.49      47.17 r
+  U276/Z (ND2I)                            0.65      47.82 f
+  U497/Z (IVI)                             0.61      48.43 r
+  U811/Z (ND2I)                            0.46      48.89 f
+  U496/Z (IVI)                             0.61      49.50 r
+  U816/Z (ND2I)                            0.46      49.96 f
+  U817/Z (ND2I)                            0.56      50.53 r
+  U206/Z (MUX21LP)                         0.77      51.30 f
+  U819/Z (ND2I)                            0.49      51.79 r
+  speed_reg[4]/D (FD1)                     0.00      51.79 r
+  data arrival time                                  51.79
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[4]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -51.79
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.09
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U756/Z (ND2I)                            1.20      49.29 f
+  U831/Z (NR2I)                            1.18      50.47 r
+  U833/Z (NR2I)                            0.41      50.88 f
+  U837/Z (ND2I)                            0.67      51.55 r
+  cruise_speed_reg[0]/D (FD1)              0.00      51.55 r
+  data arrival time                                  51.55
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[0]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -51.55
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -14.85
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U756/Z (ND2I)                            1.20      49.29 f
+  U781/Z (NR2I)                            1.18      50.47 r
+  U783/Z (NR2I)                            0.41      50.88 f
+  U787/Z (ND2I)                            0.67      51.55 r
+  cruise_speed_reg[1]/D (FD1)              0.00      51.55 r
+  data arrival time                                  51.55
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -51.55
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -14.85
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U756/Z (ND2I)                            1.20      49.29 f
+  U774/Z (NR2I)                            1.18      50.47 r
+  U776/Z (NR2I)                            0.41      50.88 f
+  U780/Z (ND2I)                            0.67      51.55 r
+  cruise_speed_reg[2]/D (FD1)              0.00      51.55 r
+  data arrival time                                  51.55
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[2]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -51.55
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -14.85
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cruise_speed_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U221/Z (IVI)                             0.27      42.39 f
+  U224/Z (IVI)                             0.56      42.96 r
+  U736/Z (AO3P)                            0.96      43.91 f
+  U532/Z (IVI)                             0.61      44.52 r
+  U738/Z (ND2I)                            0.46      44.98 f
+  U739/Z (ND2I)                            0.49      45.48 r
+  U259/Z (IVI)                             0.27      45.75 f
+  U257/Z (ND2I)                            0.49      46.24 r
+  U258/Z (ND2I)                            0.46      46.71 f
+  U754/Z (ND2I)                            0.49      47.20 r
+  U755/Z (ND2I)                            0.28      47.48 f
+  U511/Z (ND2I)                            0.60      48.08 r
+  U756/Z (ND2I)                            1.20      49.29 f
+  U767/Z (NR2I)                            1.18      50.47 r
+  U769/Z (NR2I)                            0.41      50.88 f
+  U773/Z (ND2I)                            0.67      51.55 r
+  cruise_speed_reg[3]/D (FD1)              0.00      51.55 r
+  data arrival time                                  51.55
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  cruise_speed_reg[3]/CP (FD1)             0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -51.55
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -14.85
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z1 (B3IP)                           1.33      32.71 r
+  U652/Z (ND2I)                            0.46      33.17 f
+  U351/Z (ND2I)                            0.60      33.77 r
+  U684/Z (ND2I)                            0.40      34.17 f
+  U215/Z (ND2P)                            1.93      36.10 r
+  U467/Z (B4IP)                            2.12      38.22 f
+  U468/Y (INVX1)                           0.31      38.53 r
+  U256/Y (AND2X1)                          0.11      38.64 r
+  U252/Y (NAND2X1)                         0.05      38.69 f
+  U255/Y (NAND3X1)                         0.12      38.82 r
+  U490/Y (NAND2X1)                         0.05      38.86 f
+  U529/Y (NAND2X1)                         0.23      39.09 r
+  U541/Y (NAND2X1)                         0.06      39.15 f
+  U385/Y (AND2X1)                          0.10      39.25 f
+  U386/Y (NOR2X1)                          0.12      39.37 r
+  U686/YC (FAX1)                           0.12      39.48 r
+  U687/Z (ND2I)                            0.28      39.76 f
+  U688/Z (ND2I)                            0.49      40.26 r
+  U690/Z (ND2I)                            0.46      40.72 f
+  U691/Z (ND2I)                            0.71      41.43 r
+  U364/Z (ND2I)                            0.46      41.89 f
+  U363/Z (AN2I)                            1.20      43.09 f
+  U719/Z (ND2I)                            0.56      43.66 r
+  U720/Z (AO3P)                            0.96      44.62 f
+  U534/Z (IVI)                             0.61      45.22 r
+  U722/Z (ND2I)                            0.46      45.69 f
+  U222/Y (IVDA)                            1.49      47.17 r
+  U276/Z (ND2I)                            0.65      47.82 f
+  U497/Z (IVI)                             0.61      48.43 r
+  U278/Z (ND2I)                            0.46      48.89 f
+  U812/Z (ND2I)                            0.56      49.46 r
+  U261/Z (MUX21L)                          0.86      50.31 f
+  U814/Z (ND2I)                            0.49      50.81 r
+  speed_reg[3]/D (FD1)                     0.00      50.81 r
+  data arrival time                                  50.81
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[3]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -50.81
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -14.11
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z1 (B3IP)                           1.33      32.71 r
+  U652/Z (ND2I)                            0.46      33.17 f
+  U351/Z (ND2I)                            0.60      33.77 r
+  U684/Z (ND2I)                            0.40      34.17 f
+  U215/Z (ND2P)                            1.93      36.10 r
+  U467/Z (B4IP)                            2.12      38.22 f
+  U468/Y (INVX1)                           0.31      38.53 r
+  U256/Y (AND2X1)                          0.11      38.64 r
+  U252/Y (NAND2X1)                         0.05      38.69 f
+  U255/Y (NAND3X1)                         0.12      38.82 r
+  U490/Y (NAND2X1)                         0.05      38.86 f
+  U529/Y (NAND2X1)                         0.23      39.09 r
+  U541/Y (NAND2X1)                         0.06      39.15 f
+  U385/Y (AND2X1)                          0.10      39.25 f
+  U386/Y (NOR2X1)                          0.12      39.37 r
+  U686/YC (FAX1)                           0.12      39.48 r
+  U687/Z (ND2I)                            0.28      39.76 f
+  U688/Z (ND2I)                            0.49      40.26 r
+  U690/Z (ND2I)                            0.46      40.72 f
+  U691/Z (ND2I)                            0.71      41.43 r
+  U364/Z (ND2I)                            0.46      41.89 f
+  U363/Z (AN2I)                            1.20      43.09 f
+  U719/Z (ND2I)                            0.56      43.66 r
+  U720/Z (AO3P)                            0.96      44.62 f
+  U534/Z (IVI)                             0.61      45.22 r
+  U722/Z (ND2I)                            0.46      45.69 f
+  U222/Y (IVDA)                            1.49      47.17 r
+  U276/Z (ND2I)                            0.65      47.82 f
+  U803/Z (ND2I)                            0.56      48.39 r
+  U260/Z (MUX21L)                          0.86      49.24 f
+  U288/Z (ND2I)                            0.49      49.74 r
+  speed_reg[2]/D (FD1)                     0.00      49.74 r
+  data arrival time                                  49.74
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[2]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -49.74
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -13.04
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U330/Z (ND2I)                            0.28      41.42 f
+  U331/Z (ND2I)                            0.71      42.12 r
+  U230/Z (IVI)                             0.27      42.39 f
+  U449/Z (IVI)                             0.56      42.96 r
+  U728/Z (AO3P)                            0.96      43.91 f
+  U531/Z (IVI)                             0.61      44.52 r
+  U349/Z (IVI)                             0.27      44.79 f
+  U350/Z (IVI)                             0.61      45.40 r
+  U358/Z (ND2I)                            0.65      46.05 f
+  U441/Z (MUX21H)                          2.31      48.35 f
+  U805/Z (ND2I)                            0.49      48.85 r
+  speed_reg[1]/D (FD1)                     0.00      48.85 r
+  data arrival time                                  48.85
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[1]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -48.85
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -12.15
+
+
+  Startpoint: cruise_speed_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: speed_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  chenjie_module     20x20                 class
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   12.50      12.50
+  clock network delay (ideal)              0.00      12.50
+  cruise_speed_reg[1]/CP (FD1)             0.00      12.50 r
+  cruise_speed_reg[1]/Q (FD1)              2.69      15.19 f
+  U524/Z (AN2I)                            1.49      16.68 f
+  add_43/U32/Z (ND2I)                      0.49      17.17 r
+  add_43/U31/Z (ENI)                       0.94      18.11 f
+  U563/Z (ND2I)                            0.60      18.72 r
+  U566/Z (ND2I)                            0.28      18.99 f
+  U502/Z (AN2I)                            1.13      20.12 f
+  U575/Z (ND2I)                            0.49      20.62 r
+  U576/Z (ND2I)                            0.28      20.90 f
+  U581/Z (ND2I)                            0.49      21.39 r
+  U582/Z (ND2I)                            0.65      22.04 f
+  U312/Z (ND2I)                            0.60      22.64 r
+  U297/Z (IVI)                             0.27      22.91 f
+  U295/Z (ND2I)                            0.49      23.41 r
+  U304/Z (AN2I)                            0.66      24.07 r
+  U617/Z (ND2I)                            1.12      25.19 f
+  U470/Z (B4IP)                            3.49      28.67 r
+  U471/Y (INVX1)                           0.10      28.77 f
+  U530/Y (NAND2X1)                         0.16      28.93 r
+  U323/Y (NAND2X1)                         0.06      28.99 f
+  U325/Y (NAND3X1)                         0.10      29.09 r
+  U239/Y (NAND2X1)                         0.05      29.15 f
+  U242/Y (NAND3X1)                         0.11      29.26 r
+  U527/Y (NAND2X1)                         0.05      29.31 f
+  U525/Y (NAND2X1)                         0.07      29.38 r
+  U341/Y (AND2X2)                          0.10      29.48 r
+  U244/Y (NAND2X1)                         0.05      29.53 f
+  U246/Y (NAND3X1)                         0.11      29.63 r
+  U383/Y (NAND2X1)                         0.05      29.68 f
+  U382/Y (NAND2X1)                         0.07      29.75 r
+  U342/Y (AND2X2)                          0.12      29.87 r
+  U635/YC (FAX1)                           0.10      29.97 r
+  U636/Z (ND2I)                            0.28      30.25 f
+  U645/Z (ND2I)                            0.49      30.74 r
+  U533/Z (ND2I)                            0.64      31.38 f
+  U523/Z2 (B3IP)                           1.24      32.62 f
+  U651/Z (ND2I)                            0.60      33.22 r
+  U351/Z (ND2I)                            0.46      33.69 f
+  U684/Z (ND2I)                            0.56      34.25 r
+  U215/Z (ND2P)                            1.03      35.28 f
+  U467/Z (B4IP)                            3.49      38.77 r
+  U468/Y (INVX1)                           0.09      38.86 f
+  U256/Y (AND2X1)                          0.18      39.04 f
+  U252/Y (NAND2X1)                         0.07      39.11 r
+  U255/Y (NAND3X1)                         0.07      39.18 f
+  U490/Y (NAND2X1)                         0.06      39.24 r
+  U529/Y (NAND2X1)                         0.05      39.28 f
+  U541/Y (NAND2X1)                         0.15      39.43 r
+  U385/Y (AND2X1)                          0.09      39.52 r
+  U386/Y (NOR2X1)                          0.11      39.63 f
+  U686/YC (FAX1)                           0.13      39.76 f
+  U687/Z (ND2I)                            0.49      40.26 r
+  U688/Z (ND2I)                            0.28      40.54 f
+  U690/Z (ND2I)                            0.60      41.14 r
+  U691/Z (ND2I)                            0.65      41.79 f
+  U364/Z (ND2I)                            0.60      42.39 r
+  U362/Z (AN2I)                            0.92      43.30 r
+  U807/Z (ND2I)                            0.28      43.58 f
+  U452/Z (AO3)                             1.84      45.42 r
+  U415/Z (IVI)                             0.42      45.84 f
+  U809/Z (ND2I)                            0.49      46.34 r
+  speed_reg[0]/D (FD1)                     0.00      46.34 r
+  data arrival time                                  46.34
+
+  clock clk (rise edge)                   37.50      37.50
+  clock network delay (ideal)              0.00      37.50
+  speed_reg[0]/CP (FD1)                    0.00      37.50 r
+  library setup time                      -0.80      36.70
+  data required time                                 36.70
+  -----------------------------------------------------------
+  data required time                                 36.70
+  data arrival time                                 -46.34
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -9.64
+
+

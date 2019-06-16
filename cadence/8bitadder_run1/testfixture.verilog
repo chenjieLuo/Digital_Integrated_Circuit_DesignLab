@@ -1,0 +1,68 @@
+
+// Verilog stimulus file.
+// Please do not create a module in this file.
+
+
+// Default verilog stimulus. 
+
+always @(negedge CLK)
+begin
+$display($time, " CLK=%b, INV_CLK=%b, X[7]=%b, X[6]=%b, X[5]=%b, X[4]=%b, X[3]=%b, X[2]=%b, X[1]=%b, X[0]=%b, C=%b, Y[7]=%b, Y[6]=%b, Y[5]=%b, Y[4]=%b, Y[3]=%b, Y[2]=%b, Y[1]=%b, Y[0]=%b, CARRY=%b, Z[7]=%b, Z[6]=%b, Z[5]=%b, Z[4]=%b, Z[3]=%b, Z[2]=%b, Z[1]=%b, Z[0]=%b", CLK, INV_CLK, X[7], X[6], X[5], X[4], X[3], X[2], X[1], X[0], C, Y[7], Y[6], Y[5], Y[4], Y[3], Y[2], Y[1], Y[0], CARRY, Z[7], Z[6], Z[5], Z[4], Z[3], Z[2], Z[1], Z[0]);
+end
+
+initial
+begin 
+
+   C = 1'b0;
+   CLK = 1'b0;
+   INV_CLK = 1'b1;
+   X[0] = 1'b0;
+   X[1] = 1'b0;
+   X[2] = 1'b1;
+   X[3] = 1'b0;
+   X[4] = 1'b0;
+   X[5] = 1'b0;
+   X[6] = 1'b0;
+   X[7] = 1'b0;
+   Y[0] = 1'b0;
+   Y[1] = 1'b0;
+   Y[2] = 1'b1;
+   Y[3] = 1'b0;
+   Y[4] = 1'b0;
+   Y[5] = 1'b0;
+   Y[6] = 1'b0;
+   Y[7] = 1'b0;
+
+#5 X[7]=1'b0; X[6]=1'b1; X[5]=1'b1; X[4]=1'b1; X[3]=1'b1; X[2]=1'b1; X[1]=1'b1; X[0]=1'b0; Y[7]=1'b1; Y[6]=1'b1; Y[5]=1'b1; Y[4]=1'b0; Y[3]=1'b0; Y[2]=1'b1; Y[1]=1'b1; Y[0]=1'b1;C=0;
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //positive edge for CLK signal
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //negative edge for CLK signal
+
+
+#85 X[7]=1'b1; X[6]=1'b1; X[5]=1'b1; X[4]=1'b1; X[3]=1'b1; X[2]=1'b1; X[1]=1'b1; X[0]=1'b1; Y[7]=1'b0; Y[6]=1'b0; Y[5]=1'b0; Y[4]=1'b0; Y[3]=1'b0; Y[2]=1'b0; Y[1]=1'b0; Y[0]=1'b0;C=1;
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //positive edge for CLK signal
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //negative edge for CLK signal
+
+
+#90 X[7]=1'b1; X[6]=1'b0; X[5]=1'b1; X[4]=1'b0; X[3]=1'b1; X[2]=1'b0; X[1]=1'b1; X[0]=1'b0; Y[7]=1'b0; Y[6]=1'b1; Y[5]=1'b0; Y[4]=1'b1; Y[3]=1'b0; Y[2]=1'b1; Y[1]=1'b0; Y[0]=1'b1;C=0;
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //positive edge for CLK signal
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //negative edge for CLK signal
+
+
+#90 X[7]=1'b1; X[6]=1'b0; X[5]=1'b1; X[4]=1'b0; X[3]=1'b1; X[2]=1'b0; X[1]=1'b1; X[0]=1'b0; Y[7]=1'b0; Y[6]=1'b1; Y[5]=1'b0; Y[4]=1'b1; Y[3]=1'b0; Y[2]=1'b1; Y[1]=1'b0; Y[0]=1'b1;C=1;
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //positive edge for CLK signal
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //negative edge for CLK signal
+
+
+#90 X[7]=1'b1; X[6]=1'b1; X[5]=1'b0; X[4]=1'b0; X[3]=1'b1; X[2]=1'b1; X[1]=1'b0; X[0]=1'b0; Y[7]=1'b0; Y[6]=1'b0; Y[5]=1'b1; Y[4]=1'b1; Y[3]=1'b0; Y[2]=1'b0; Y[1]=1'b1; Y[0]=1'b1;C=0;
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //positive edge for CLK signal
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //negative edge for CLK signal
+
+
+
+#90 X[7]=1'b1; X[6]=1'b1; X[5]=1'b0; X[4]=1'b0; X[3]=1'b1; X[2]=1'b1; X[1]=1'b0; X[0]=1'b0; Y[7]=1'b0; Y[6]=1'b0; Y[5]=1'b1; Y[4]=1'b1; Y[3]=1'b0; Y[2]=1'b0; Y[1]=1'b1; Y[0]=1'b1;C=1;
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //positive edge for CLK signal
+#5 CLK=~CLK; INV_CLK=~INV_CLK;  //negative edge for CLK signal
+
+
+
+end 

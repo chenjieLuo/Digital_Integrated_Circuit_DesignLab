@@ -1,0 +1,6 @@
+fulladder I3 ( net20, D0, I[0], J[0], C);
+fulladder I2 ( net21, C0, I[1], J[1], net20);
+fulladder I1 ( net22, B0, I[2], J[2], net21);
+fulladder I0 ( CARRY, A0, I[3], J[3], net22);
+
+endmodule

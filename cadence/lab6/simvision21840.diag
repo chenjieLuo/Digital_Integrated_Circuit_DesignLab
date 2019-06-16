@@ -1,0 +1,116 @@
+*** Message Type: info ***
+When: Sat Mar 09 15:10:40 CST 2019
+SimVision started.
+Version: TOOL:  simvision       10.20-s073
+User: lchenjie
+Host: lin20-324cvlb.ece.tamu.edu
+Platform: Linux/x86_64/3.10.0-957.5.1.el7.x86_64
+Started: Sat Mar 09 15:10:40 CST 2019
+Command: /softwares/Linux/cadence/INCISIV102/tools.lnx86/simvision/bin/simvision.exe -connect dc:lin20-324cvlb.ece.tamu.edu:44463 -nocopyright
+Work Directory: /home/grads/l/lchenjie/lchenjie/cadence/lab6
+ 
+*** Message Type: info ***
+When: Sat Mar 09 15:10:41 CST 2019
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Sat Mar 09 15:10:42 CST 2019
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Sat Mar 09 15:10:43 CST 2019
+Connect to Simulator
+      Design: worklib.dff_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:   ncsim   10.20-s073
+        User: lchenjie
+        Host: lin20-324cvlb.ece.tamu.edu
+Time Started: Sat Mar 09 15:10:39 CST 2019
+  Process ID: 21834
+   Directory: /home/grads/l/lchenjie/lchenjie/cadence/lab6
+     Command: ncverilog +access+r +gui dff_tb.v dff.v
+
+ 
+*** Message Type: info ***
+When: Sat Mar 09 15:10:43 CST 2019
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Sat Mar 09 16:28:20 CST 2019
+Exit NC-Sim: user
+      Design: worklib.dff_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:   ncsim   10.20-s073
+        User: lchenjie
+        Host: lin20-324cvlb.ece.tamu.edu
+Time Started: Sat Mar 09 15:10:39 CST 2019
+  Process ID: 21834
+   Directory: /home/grads/l/lchenjie/lchenjie/cadence/lab6
+     Command: ncverilog +access+r +gui dff_tb.v dff.v
+
+ 
+*** Message Type: error ***
+When: Sat Mar 09 16:28:20 CST 2019
+bad window path name ""
+    while executing
+"winfo toplevel [$d cget -parent]"
+    (procedure "::SVDialog::anyBlockingFor" body line 10)
+    invoked from within
+"SVDialog::anyBlockingFor [winfo toplevel [namespace tail $this]]"
+    (object "::.watchList0" method "::SVToolWindow::_WMDeleteCallback" body line 2)
+    invoked from within
+"::.watchList0 _WMDeleteCallback"
+    (in namespace inscope "::SVToolWindow" script line 1)
+    invoked from within
+"namespace inscope ::SVToolWindow {::.watchList0 _WMDeleteCallback}"
+    (command for "WM_DELETE_WINDOW" window manager protocol)
+ 
+*** Message Type: error ***
+When: Sat Mar 09 16:28:20 CST 2019
+bad window path name ""
+    while executing
+"winfo toplevel [$d cget -parent]"
+    (procedure "::SVDialog::anyBlockingFor" body line 10)
+    invoked from within
+"SVDialog::anyBlockingFor [winfo toplevel [namespace tail $this]]"
+    (object "::.watchList0" method "::SVToolWindow::_WMDeleteCallback" body line 2)
+    invoked from within
+"::.watchList0 _WMDeleteCallback"
+    (in namespace inscope "::SVToolWindow" script line 1)
+    invoked from within
+"namespace inscope ::SVToolWindow {::.watchList0 _WMDeleteCallback}"
+    (command for "WM_DELETE_WINDOW" window manager protocol)
+ 
+*** Message Type: error ***
+When: Sat Mar 09 16:28:21 CST 2019
+NC-Sim Crashed:
+      Design: worklib.dff_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:   ncsim   10.20-s073
+        User: lchenjie
+        Host: lin20-324cvlb.ece.tamu.edu
+Time Started: Sat Mar 09 15:10:39 CST 2019
+  Process ID: 21834
+   Directory: /home/grads/l/lchenjie/lchenjie/cadence/lab6
+     Command: ncverilog +access+r +gui dff_tb.v dff.v
+      Design: worklib.dff_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:        ncsim   10.20-s073
+        User: lchenjie
+        Host: lin20-324cvlb.ece.tamu.edu
+Time Started: Sat Mar 09 15:10:39 CST 2019
+  Process ID: 21834
+   Directory: /home/grads/l/lchenjie/lchenjie/cadence/lab6
+     Command: ncverilog +access+r +gui dff_tb.v dff.v
+
+Outstanding STRAP Requests:
+        strap::get s dff_tb -cs
+ 
+*** Message Type: info ***
+When: Sat Mar 09 16:28:21 CST 2019
+SimVision Exit.
+ 

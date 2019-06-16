@@ -1,0 +1,43 @@
+TOOL:	ncxlmode	10.20-s073: Started on Jan 28, 2019 at 21:27:11 CST
+/softwares/Linux/cadence/INCISIV102/tools.lnx86/bin/ncxlmode
+	+delay_mode_path
+	+typdelays
+	-l
+	simout.tmp
+	/home/grads/l/lchenjie/lchenjie/cadence/8bitadder_run1/testfixture.template
+	-f /home/grads/l/lchenjie/lchenjie/cadence/8bitadder_run1/verilog.inpfiles
+		/softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/Dlatch/behavioral/verilog.v
+		/softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/nand2/functional/verilog.v
+		/softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/xor2/functional/verilog.v
+		ihnl/cds0/netlist
+		ihnl/cds1/netlist
+		ihnl/cds2/netlist
+		ihnl/cds3/netlist
+		ihnl/cds4/netlist
+	+nostdout
+	+nocopyright
+	+ncvlogargs+" -neverwarn -nostdout -nocopyright "
+	+ncelabargs+" -neg_tchk  -nonotifier  -sdf_NOCheck_celltype  -access +r  -pulse_e 100  -pulse_r 100  -neverwarn  -timescale 1ns/1ns -nostdout -nocopyright"
+	+ncsimargs+" -neverwarn  -nocopyright -gui -input /home/grads/l/lchenjie/lchenjie/cadence/8bitadder_run1/.simTmpNCCmd "
+	+mpssession+virtuoso28966
+	+mpshost+lin13-324cvlb.ece.tamu.edu
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /softwares/Linux/cadence/INCISIV102/tools/inca/files/ncsimrc
+ncsim> database -open shmWave -shm -default -into shm.db
+Created default SHM database shmWave
+ncsim> probe -create -shm test  -all   -depth 1
+Created probe 1
+ncsim> run
+                   0 CLK=0, INV_CLK=1, X[7]=0, X[6]=0, X[5]=0, X[4]=0, X[3]=0, X[2]=1, X[1]=0, X[0]=0, C=0, Y[7]=0, Y[6]=0, Y[5]=0, Y[4]=0, Y[3]=0, Y[2]=1, Y[1]=0, Y[0]=0, CARRY=x, Z[7]=x, Z[6]=x, Z[5]=x, Z[4]=x, Z[3]=x, Z[2]=x, Z[1]=x, Z[0]=x
+                  15 CLK=0, INV_CLK=1, X[7]=0, X[6]=1, X[5]=1, X[4]=1, X[3]=1, X[2]=1, X[1]=1, X[0]=0, C=0, Y[7]=1, Y[6]=1, Y[5]=1, Y[4]=0, Y[3]=0, Y[2]=1, Y[1]=1, Y[0]=1, CARRY=1, Z[7]=0, Z[6]=1, Z[5]=1, Z[4]=0, Z[3]=0, Z[2]=1, Z[1]=0, Z[0]=1
+                 110 CLK=0, INV_CLK=1, X[7]=1, X[6]=1, X[5]=1, X[4]=1, X[3]=1, X[2]=1, X[1]=1, X[0]=1, C=1, Y[7]=0, Y[6]=0, Y[5]=0, Y[4]=0, Y[3]=0, Y[2]=0, Y[1]=0, Y[0]=0, CARRY=1, Z[7]=0, Z[6]=0, Z[5]=0, Z[4]=0, Z[3]=0, Z[2]=0, Z[1]=0, Z[0]=0
+                 210 CLK=0, INV_CLK=1, X[7]=1, X[6]=0, X[5]=1, X[4]=0, X[3]=1, X[2]=0, X[1]=1, X[0]=0, C=0, Y[7]=0, Y[6]=1, Y[5]=0, Y[4]=1, Y[3]=0, Y[2]=1, Y[1]=0, Y[0]=1, CARRY=0, Z[7]=1, Z[6]=1, Z[5]=1, Z[4]=1, Z[3]=1, Z[2]=1, Z[1]=1, Z[0]=1
+                 310 CLK=0, INV_CLK=1, X[7]=1, X[6]=0, X[5]=1, X[4]=0, X[3]=1, X[2]=0, X[1]=1, X[0]=0, C=1, Y[7]=0, Y[6]=1, Y[5]=0, Y[4]=1, Y[3]=0, Y[2]=1, Y[1]=0, Y[0]=1, CARRY=1, Z[7]=0, Z[6]=0, Z[5]=0, Z[4]=0, Z[3]=0, Z[2]=0, Z[1]=0, Z[0]=0
+                 410 CLK=0, INV_CLK=1, X[7]=1, X[6]=1, X[5]=0, X[4]=0, X[3]=1, X[2]=1, X[1]=0, X[0]=0, C=0, Y[7]=0, Y[6]=0, Y[5]=1, Y[4]=1, Y[3]=0, Y[2]=0, Y[1]=1, Y[0]=1, CARRY=0, Z[7]=1, Z[6]=1, Z[5]=1, Z[4]=1, Z[3]=1, Z[2]=1, Z[1]=1, Z[0]=1
+                 510 CLK=0, INV_CLK=1, X[7]=1, X[6]=1, X[5]=0, X[4]=0, X[3]=1, X[2]=1, X[1]=0, X[0]=0, C=1, Y[7]=0, Y[6]=0, Y[5]=1, Y[4]=1, Y[3]=0, Y[2]=0, Y[1]=1, Y[0]=1, CARRY=1, Z[7]=0, Z[6]=0, Z[5]=0, Z[4]=0, Z[3]=0, Z[2]=0, Z[1]=0, Z[0]=0
+ncsim> ^C
+ncsim> exit
+TOOL:	ncxlmode	10.20-s073: Exiting on Jan 28, 2019 at 21:27:30 CST  (total: 00:00:19)

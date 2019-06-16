@@ -1,0 +1,27 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+
+reg  CLK, INV_CLK;
+
+wire [0:3]  O;
+
+reg [0:3]  I;
+
+
+
+Design_4bitregister_schematic top(O[0], O[1], O[2], O[3], CLK, I[0], 
+     I[1], I[2], I[3], INV_CLK); 
+ 
+
+`ifdef verilog
+
+ //please enter any additional verilog stimulus in the /home/grads/l/lchenjie/lchenjie/cadence/4bitregister_run1/testfixture.verilog file
+`include "/home/grads/l/lchenjie/lchenjie/cadence/4bitregister_run1/testfixture.verilog"
+
+`endif
+
+endmodule 

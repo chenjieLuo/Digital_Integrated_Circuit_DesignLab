@@ -1,0 +1,40 @@
+// Library - Design, Cell - 8bitadder, View - schematic
+// LAST TIME SAVED: Jan 28 20:56:23 2019
+// NETLIST TIME: Jan 28 20:56:43 2019
+`timescale 1ns / 1ns 
+
+module Design_8bitadder_schematic ( CARRY, Z[0], Z[1], Z[2], Z[3],
+     Z[4], Z[5], Z[6], Z[7], C, CLK, INV_CLK, X[0], X[1], X[2], X[3],
+     X[4], X[5], X[6], X[7], Y[0], Y[1], Y[2], Y[3], Y[4], Y[5], Y[6],
+     Y[7] );
+
+output  CARRY;
+
+input  C, CLK, INV_CLK;
+
+output [0:7]  Z;
+
+input [0:7]  X;
+input [0:7]  Y;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "8bitadder";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+Design_4bitadder_schematic I1 ( Z[7], Z[6], Z[5], CARRY, Z[4], net27,
+     net1, net5, net9, net13, net16, net12, net6, net3);
+Design_4bitadder_schematic I0 ( Z[3], Z[2], Z[1], net27, Z[0], C, net4,
+     net8, net11, net15, net14, net10, net7, net2);
+Design_4bitregister_schematic I6 ( net14, net10, net7, net2, CLK, Y[0],
+     Y[1], Y[2], Y[3], INV_CLK);
+Design_4bitregister_schematic I5 ( net4, net8, net11, net15, CLK, X[0],
+     X[1], X[2], X[3], INV_CLK);
+Design_4bitregister_schematic I3 ( net16, net12, net6, net3, CLK, Y[4],
+     Y[5], Y[6], Y[7], INV_CLK);
+Design_4bitregister_schematic I2 ( net1, net5, net9, net13, CLK, X[4],
+     X[5], X[6], X[7], INV_CLK);
+
+endmodule

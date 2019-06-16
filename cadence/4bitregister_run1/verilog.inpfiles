@@ -1,0 +1,20 @@
+// Verilog HDL and netlist files of
+// "Design 4bitregister schematic"
+
+// HDL models
+
+// HDL file - NCSU_Digital_Parts, Dlatch, behavioral.
+/softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/Dlatch/behavioral/verilog.v
+
+
+// End HDL models
+
+// Netlisted models
+
+// netlist file - NCSU_Digital_Parts, DFF, schematic.
+ihnl/cds0/netlist
+// netlist file - Design, 4bitregister, schematic.
+ihnl/cds1/netlist
+
+
+// End HDL models

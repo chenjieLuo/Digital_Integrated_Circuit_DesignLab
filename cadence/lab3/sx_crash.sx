@@ -1,0 +1,10 @@
+### Custom WaveView session file (version E-2011.03-1 build 1103) ###
+### saved at 22:36:30 on Thu Feb 14 2019 ###
+wdf 0 "/home/grads/l/lchenjie/lchenjie/cadence/lab3/XOR.raw/TransientAnalysis.tran.tran" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 dm=delay:197:208:1:0:0:5.0000e+01:5.0000e+01:0.0000e+00:0.0000e+00:0:0:1.10000e-09:9.00000e-01:1.94563e-09:9.03328e-01 dm=delay:329:235:1:0:0:5.0000e+01:5.0000e+01:0.0000e+00:0.0000e+00:0:0:4.10000e-09:9.00000e-01:4.99449e-09:9.03328e-01 geo=1200:90:700:400 "name=waveview 1" 
+  panel_begin linear pidx=0 spath=true 
+    line src=wdf lidx=0 fidx=0 "delim=.^" sigtype=1 "name=XR_in" attr=0:0:1:0 autoset=true disp=show 
+    line src=wdf lidx=1 fidx=0 "delim=.^" sigtype=1 "name=XR_out" attr=1:1:1:1 autoset=true disp=show 
+  panel_end
+waveview_end

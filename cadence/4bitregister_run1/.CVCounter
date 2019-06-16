@@ -1,0 +1,7 @@
+cellViewCounterTable = makeTable('cellViewCounterTableType nil)
+cellViewCounterTable['("NCSU_Digital_Parts" "DFF" "schematic" )] =  96
+cellViewCounterTable['("basic" "opin" "symbol" )] =  19
+cellViewCounterTable['("NCSU_Digital_Parts" "Dlatch" "symbol" )] =  63
+cellViewCounterTable['("Design" "4bitregister" "schematic" )] =  2086
+cellViewCounterTable['("NCSU_Digital_Parts" "DFF" "symbol" )] =  62
+cellViewCounterTable['("basic" "ipin" "symbol" )] =  19

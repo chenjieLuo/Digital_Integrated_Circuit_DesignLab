@@ -1,0 +1,35 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Thu Feb 14 21:38:29 2019"
+"simulator" "spectre"
+"version" "15.1.0.602.isr11"
+"date" "9:38:29 PM, Thur Feb 14, 2019"
+"design" ";Spice netlist for an inverter and a capacitor"
+"signalNameType" "spectre"
+"simMode" "Spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"Freq-ac" "analysisInst" (
+"ac"
+"Freq.ac"
+"PSF"
+""
+("freq")
+"AC Analysis `Freq': freq = (10 Hz -> 1 GHz)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+END

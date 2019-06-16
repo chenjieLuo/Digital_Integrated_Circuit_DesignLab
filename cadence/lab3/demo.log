@@ -1,0 +1,62 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 15.1.0.602.isr11 32bit -- 3 Sep 2016
+Copyright (C) 1989-2016 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: lchenjie   Host: hera3.ece.tamu.edu   HostID: 5BA5129F   PID: 5870
+Memory  available: 10.3559 GB  physical: 270.2585 GB
+Linux   : CentOS Linux release 7.6.1810 (Core) 
+CPU Type: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz
+All processors running at 3099.9 MHz
+        Socket: Processors (Hyperthreaded Processor)
+        0:       0 ( 20 ),  2 ( 22 ),  4 ( 24 ),  6 ( 26 ),  8 ( 28 )
+                10 ( 30 ), 12 ( 32 ), 14 ( 34 ), 16 ( 36 ), 18 ( 38 )
+        1:       1 ( 21 ),  3 ( 23 ),  5 ( 25 ),  7 ( 27 ),  9 ( 29 )
+                11 ( 31 ), 13 ( 33 ), 15 ( 35 ), 17 ( 37 ), 19 ( 39 )
+        
+System load averages (1min, 5min, 15min) : 37.7 %, 37.9 %, 38.1 %
+Hyperthreading is enabled
+
+
+Simulating `demo.spi' on hera3.ece.tamu.edu at 10:07:35 AM, Thur Feb 14, 2019 (process id: 5870).
+Current working directory: /home/grads/l/lchenjie/lchenjie/cadence/lab3
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /softwares/Linux/cadence/MMSIM151/tools/bin/spectre demo.spi
+
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_o_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /softwares/Linux/cadence/MMSIM151/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Reading file:  /home/grads/l/lchenjie/lchenjie/cadence/lab3/demo.spi
+Reading file:  /softwares/Linux/cadence/MMSIM151/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /usr/include/stdc-predef.h
+
+Error found by spectre during circuit read-in.
+    ERROR (SFE-868): "demo.spi" 4: Can not open input file `/home/grads/l/lchenjie/cadence/cellcharacs/model18.spi'. No such file or directory. Ensure that the file exists and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+    ERROR (SFE-868): "demo.spi" 5: Can not open input file `/home/grads/l/lchenjie/cadence/cellcharacs/cell18.spi'. No such file or directory. Ensure that the file exists and the path to the file is correct. Otherwise, use the -I<path> command-line option to specify the path to the file.
+
+Time for NDB Parsing: CPU = 81.601 ms, elapsed = 169.676 ms.
+Time accumulated: CPU = 109.411 ms, elapsed = 169.685 ms.
+Peak resident memory used = 27.3 Mbytes.
+
+Time for parsing: CPU = 29 us, elapsed = 27.895 us.
+Time accumulated: CPU = 109.696 ms, elapsed = 170.001 ms.
+Peak resident memory used = 27.3 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+Aggregate audit (10:07:35 AM, Thur Feb 14, 2019):
+Time used: CPU = 111 ms, elapsed = 172 ms, util. = 64.8%.
+Time spent in licensing: elapsed = 17.2 ms, percentage of total = 10%.
+Peak memory used = 27.9 Mbytes.
+Simulation started at: 10:07:35 AM, Thur Feb 14, 2019, ended at: 10:07:35 AM, Thur Feb 14, 2019, with elapsed time (wall clock): 172 ms.
+spectre completes with 2 errors, 0 warnings, and 0 notices.
+spectre terminated prematurely due to fatal error.

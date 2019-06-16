@@ -1,0 +1,10 @@
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/testfixture.template
+1139589188 /softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts/pmos4/functional/verilog.v
+1139589189 /softwares/Common/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts/nmos4/functional/verilog.v
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/ihnl/cds0/netlist
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/ihnl/cds1/netlist
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/ihnl/cds2/netlist
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/ihnl/cds3/netlist
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/ihnl/cds4/netlist
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/ihnl/cds5/netlist
+1554429728 /home/grads/l/lchenjie/lchenjie/cadence/8-bit-pipelined-adder_simulate_run1/ihnl/cds6/netlist

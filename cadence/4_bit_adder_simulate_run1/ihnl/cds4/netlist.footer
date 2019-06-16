@@ -1,0 +1,6 @@
+cdsModule_0 I3 ( net32, O[0], GND, VDD, I[0], J[0], C);
+cdsModule_0 I2 ( net33, O[1], GND, VDD, I[1], J[1], net32);
+cdsModule_0 I1 ( net34, O[2], GND, VDD, I[2], J[2], net33);
+cdsModule_0 I0 ( CARRY, O[3], GND, VDD, I[3], J[3], net34);
+
+endmodule

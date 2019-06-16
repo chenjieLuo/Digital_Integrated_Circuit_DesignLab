@@ -1,0 +1,236 @@
+ncverilog: 10.20-s073: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s073: Started on Mar 09, 2019 at 22:10:49 CST
+ncverilog
+	+access+r
+	+gui
+	chenjie_testbench.v
+	chenjie_module.v
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,10): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,11): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,10): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,11): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,10): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,11): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,10): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,11): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,10): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,11): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+ncverilog: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,10): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,11): cds.lib Invalid environment variable ''.
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+ncsim: *W,DLCVAR (/home/grads/l/lchenjie/cds.lib,12): cds.lib Invalid environment variable ''.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /softwares/Linux/cadence/INCISIV102/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm chenjie_testbench.module1.accel chenjie_testbench.module1.brake chenjie_testbench.module1.cached_speed chenjie_testbench.module1.cancel chenjie_testbench.module1.clk chenjie_testbench.module1.coast chenjie_testbench.module1.cruise_on chenjie_testbench.module1.cruise_speed chenjie_testbench.module1.reset chenjie_testbench.module1.resume chenjie_testbench.module1.set chenjie_testbench.module1.speed chenjie_testbench.module1.throttle
+Created probe 1
+ncsim> run
+...Regained control from SimVision
+-------------------------------------
+TOOL:	ncverilog	10.20-s073: Exiting on Mar 09, 2019 at 23:06:41 CST  (total: 00:55:52)

@@ -1,0 +1,20 @@
+// Library - Design, Cell - Flip-Flop, View - schematic
+// LAST TIME SAVED: Mar 17 15:36:13 2019
+// NETLIST TIME: Apr  4 21:02:08 2019
+`timescale 1ns / 1ns 
+
+module cdsModule_5 ( Q, GND, VDD, CLK, CLK_L, D );
+
+output  Q;
+
+inout  GND, VDD;
+
+input  CLK, CLK_L, D;
+
+
+specify 
+    specparam CDS_LIBNAME  = "Design";
+    specparam CDS_CELLNAME = "Flip-Flop";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+

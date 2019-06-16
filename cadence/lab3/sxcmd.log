@@ -1,0 +1,286 @@
+### CustomExplorer log file, revision E-2011.03-1 (build 1103) ###
+### created at 22:53:08 on Thu Feb 14 2019 (Linux AMD64) ###
+wv_start_log
+# (0) # editor setting overridden by env variable EDITOR
+# (0) running in waveview only mode
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 20 43
+wv_move_window CustomWaveView 14 8
+wv_resize_window CustomWaveView 900 550
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_move_dialog FileDialog 262 52
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_select_list_item FileDialog.FileList simcap.raw
+wv_dclick_list_item FileDialog.FileList simcap.raw
+wv_select_list_item FileDialog.FileList Freq.ac
+wv_select_list_item FileDialog.FileList Freq.ac
+wv_dclick_list_item FileDialog.FileList Freq.ac
+wv_select_hierview_item {FILE0:D0:Freq.ac}
+wv_dclick_hierview_item {FILE0:D0:Freq.ac}
+wv_select_hierview_item {FILE0:D0:Freq.ac} {toplevel}
+wv_dclick_hierview_item {FILE0:D0:Freq.ac} {toplevel}
+wv_select_sigview_item R1:1
+wv_dclick_sigview_item R1:1
+wv_move_window CustomWaveView 33 14
+wv_move_window CustomWaveView 755 156
+wv_move_window CustomWaveView 1766 327
+wv_select_menu_item {Tools} {Measurement ...}
+wv_select_dialog MeasurementTool
+wv_move_dialog MeasurementTool 1797 371
+wv_select_tab MeasurementTool.TabCtrl 1
+wv_set_radio MeasurementTool.Data
+wv_set_radio MeasurementTool.Data
+wv_press_button MeasurementTool.AllOk
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 270 213
+wv_move_wv_item WV1.MEAS1 188 290
+wv_move_window CustomWaveView 1648 309
+wv_move_window CustomWaveView 716 286
+wv_move_window CustomWaveView 298 89
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 211 315
+wv_move_wv_item WV1.MEAS1 212 315
+wv_select_panel WV1.PANEL1:1 1.98676e+08 5.02564e-06
+wv_drag_item_to WV1 237 300
+wv_zoom WV1.PANEL1:1 1.98676e+08 5.02564e-06 2.42826e+08 5.73515e-06
+wv_select_panel WV1.PANEL1:1 2.10674e+08 5.55445e-06
+wv_drag_item_to WV1 254 289
+#signal over-zoomed, action canceled
+wv_release_wv_item WV1 254 289
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 44 15
+wv_release_wv_item WV1 44 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 44 15
+wv_release_wv_item WV1 44 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 44 15
+wv_release_wv_item WV1 44 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 44 15
+wv_release_wv_item WV1 44 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 44 15
+wv_release_wv_item WV1 44 15
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 290 322
+wv_move_wv_item WV1.MEAS1 292 318
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 340 340
+wv_move_wv_item WV1.MEAS1 347 339
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 386 363
+wv_move_wv_item WV1.MEAS1 386 364
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 431 385
+wv_move_wv_item WV1.MEAS1 411 394
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 494 415
+wv_move_wv_item WV1.MEAS1 519 400
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 506 418
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 503 432
+wv_move_wv_item WV1.MEAS1 474 263
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 482 288
+wv_move_wv_item WV1.MEAS1 489 288
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 496 310
+wv_move_wv_item WV1.MEAS1 504 310
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 517 336
+wv_move_wv_item WV1.MEAS1 524 335
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 517 359
+wv_move_wv_item WV1.MEAS1 523 357
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 536 362
+wv_move_wv_item WV1.MEAS1 541 360
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 529 376
+wv_move_wv_item WV1.MEAS1 547 306
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 53 9
+wv_select_wv_item WV1.ICON.unzoom
+wv_release_wv_item WV1 55 12
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_context_menu_item {Clear WaveView}
+wv_hierview_context_menu {FILE0:D0:Freq.ac}
+wv_select_context_menu_item {Close This File}
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 647 295
+wv_press_button Confirmation.Ok
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_move_dialog FileDialog 262 74
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {Freq.ac}
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList NAND.raw
+wv_dclick_list_item FileDialog.FileList NAND.raw
+wv_select_list_item FileDialog.FileList TransientAnalysis.tran.tran
+wv_move_dialog FileDialog 274 36
+wv_move_dialog FileDialog 297 14
+wv_select_list_item FileDialog.FileList TransientAnalysis.tran.tran
+wv_dclick_list_item FileDialog.FileList TransientAnalysis.tran.tran
+wv_select_hierview_item {FILE0:D1:TransientAnalysis.tran.tran}
+wv_dclick_hierview_item {FILE0:D1:TransientAnalysis.tran.tran}
+wv_select_hierview_item {FILE0:D1:TransientAnalysis.tran.tran} {toplevel}
+wv_dclick_hierview_item {FILE0:D1:TransientAnalysis.tran.tran} {toplevel}
+wv_select_sigview_item ND_in
+wv_dclick_sigview_item ND_in
+wv_select_sigview_item ND_out
+wv_dclick_sigview_item ND_out
+wv_select_menu_item {Panel} {Actions} {Group}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_shift_select_panel WV1.PANEL2:1.LEGEND
+wv_release_wv_item WV1 31 279
+wv_select_menu_item {Panel} {Actions} {Group}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 415 286
+wv_press_button ReloadFiles.Yes
+wv_select_menu_item {Tools} {Measurement ...}
+wv_move_dialog MeasurementTool 329 133
+wv_select_dialog MeasurementTool
+wv_set_radio MeasurementTool.TimeDomain
+wv_resize_dialog MeasurementTool 838 656
+wv_set_radio MeasurementTool.Delay
+wv_move_dialog MeasurementTool 325 90
+wv_move_dialog MeasurementTool 312 15
+wv_press_button MeasurementTool.AllOk
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 215 227
+wv_move_wv_item WV1.MEAS1 209 229
+wv_select_menu_item {Tools} {Measurement ...}
+wv_move_dialog MeasurementTool 303 133
+wv_select_dialog MeasurementTool
+wv_move_dialog MeasurementTool 301 92
+wv_move_dialog MeasurementTool 288 50
+wv_press_button MeasurementTool.AllOk
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 279 230
+wv_move_wv_item WV1.MEAS2 324 226
+wv_hierview_context_menu {FILE0:D1:TransientAnalysis.tran.tran}
+wv_select_context_menu_item {Close This File}
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 647 295
+wv_press_button Confirmation.Ok
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_move_dialog FileDialog 546 133
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {TransientAnalysis.tran.tran}
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList inverter.raw
+wv_dclick_list_item FileDialog.FileList inverter.raw
+wv_select_list_item FileDialog.FileList TransientAnalysis.tran.tran
+wv_dclick_list_item FileDialog.FileList TransientAnalysis.tran.tran
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran}
+wv_dclick_hierview_item {FILE0:D2:TransientAnalysis.tran.tran}
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_dclick_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_sigview_item IV_in
+wv_dclick_sigview_item IV_in
+wv_select_sigview_item IV_out
+wv_dclick_sigview_item IV_out
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_drag_item_to WV1 34 257
+wv_select_panel WV1.PANEL2:1.LEGEND
+wv_shift_select_panel WV1.PANEL1:1.LEGEND
+wv_release_wv_item WV1 28 161
+wv_select_menu_item {Panel} {Actions} {Group}
+wv_select_menu_item {Tools} {Measurement ...}
+wv_move_dialog MeasurementTool 303 133
+wv_select_dialog MeasurementTool
+wv_move_dialog MeasurementTool 300 49
+wv_move_dialog MeasurementTool 305 3
+wv_press_button MeasurementTool.AllOk
+wv_press_button MeasurementTool.AllOk
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 273 251
+wv_move_wv_item WV1.MEAS2 221 246
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 335 240
+wv_move_wv_item WV1.MEAS1 335 240
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 409 286
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE0:D2:TransientAnalysis.tran.tran} {toplevel}
+wv_close_window CustomWaveView
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 642 295
+# wv_press_button Confirmation.Ok

@@ -1,0 +1,13 @@
+CADENCE IHNL11140
+$model
+Design/Flip-Flop/schematic cdsModule_0
+Design/Flip-Flop_simulate/schematic cdsModule_1
+Design/inverter/schematic inverter
+vdc vdc
+$endmodel
+$net
+gnd! cds_globals.gnd_
+vdd! cds_globals.vdd_
+$endnet
+$param
+$endparam

@@ -1,0 +1,39 @@
+//Spice netlist for an inverter 
+simulator lang=spectre
+subckt IV (input output VDD VSS)
+        parameters wp=0.9u lp=0.2u wn=0.4u ln=0.2u              
+        M1 output input VDD VDD tsmc18P w=wp l=lp
+        M2 output input VSS VSS tsmc18N w=wn l=ln
+ends IV
+
+subckt ND (input1 input2 output VDD VSS)
+        parameters wp=0.9u lp=0.2u wn=0.4u ln=0.2u
+        M1 output input1 VDD VDD tsmc18P w=wp l=lp
+        M2 output input2 VDD VDD tsmc18P w=wp l=lp
+        M3 temp input2 VSS VSS tsmc18N w=wn l=ln
+        M4 output input1 temp VSS tsmc18N w=wn l=ln
+ends ND
+
+subckt XR (input1 input2 output VDD VSS)
+        parameters wp=0.9u lp=0.2u wn=0.4u ln=0.2u wp1=0.9u lp1=0.2u wn1=0.15u ln1=0.2u
+        M1 ivA input1 VDD VDD tsmc18P w=wp l=lp
+        M2 VSS input1 ivA VSS tsmc18N w=wn l=ln
+        M3 ivB input2 VDD VDD tsmc18P w=wp l=lp
+        M4 VSS input2 ivB VSS tsmc18N w=wn l=ln
+
+        M5 temp1 input2 VDD VDD tsmc18P w=wp1 l=lp1
+        M6 output ivA temp1 VDD tsmc18P w=wp1 l=lp1
+        M7 temp2 ivB VDD VDD tsmc18P w=wp1 l=lp1
+        M8 output input1 temp2 VDD tsmc18P w=wp1 l=lp1
+
+        M9 output ivA temp3 VSS tsmc18N w=wn1 l=ln1
+        M10 temp3 ivB VSS VSS tsmc18N w=wn1 l=ln1
+        M11 output input1 temp4 VSS tsmc18N w=wn1 l=ln1
+        M12 temp4 input2 VSS VSS tsmc18N w=wn1 l=ln1
+ends XR
+
+
+
+
+
+

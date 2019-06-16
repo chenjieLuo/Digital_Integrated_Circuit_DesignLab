@@ -1,0 +1,20 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+wire  CARRY;
+
+reg  C;
+
+wire [0:3]  O;
+
+reg [0:3]  I;
+reg [0:3]  J;
+
+
+
+Design_4_bit_adder_simulate_schematic top(CARRY, O[0], O[1], O[2], O[3]
+     , C, I[0], I[1], I[2], I[3], J[0], J[1], J[2], J[3]); 
+ 

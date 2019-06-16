@@ -1,0 +1,7 @@
+( ( net
+( "vdd!" "cds_globals.vdd_" )
+( "gnd!" "cds_globals.gnd_" )
+ )
+( "Flip-Flop_simulate" "cdsModule_1" )
+( "Flip-Flop" "cdsModule_0" )
+ )

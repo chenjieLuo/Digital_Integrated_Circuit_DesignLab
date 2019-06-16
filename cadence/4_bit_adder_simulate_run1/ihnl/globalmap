@@ -1,0 +1,15 @@
+CADENCE IHNL11140
+$model
+Design/my_4_bit_adder/schematic my_4_bit_adder
+Design/xor2/schematic xor2
+Design/1-bit_adder/schematic cdsModule_0
+vdc vdc
+Design/4_bit_adder_simulate/schematic Design_4_bit_adder_simulate_schematic
+Design/NAND/schematic NAND
+$endmodel
+$net
+gnd! cds_globals.gnd_
+vdd! cds_globals.vdd_
+$endnet
+$param
+$endparam

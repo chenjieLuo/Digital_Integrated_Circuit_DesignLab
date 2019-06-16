@@ -1,0 +1,6 @@
+nmos4 N1 ( GND, net17, B, GND);
+nmos4 N0 ( GND, out, A, net17);
+pmos4 P1 ( VDD, out, B, VDD);
+pmos4 P0 ( VDD, out, A, VDD);
+
+endmodule
